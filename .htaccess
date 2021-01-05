@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([^.]*)$ /egg-sgml/2/templates.php?t=%{REQUEST_URI} [QSA,END]
+RewriteBase /
