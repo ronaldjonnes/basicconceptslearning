@@ -1,20 +1,19 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
-<div class="container-fluid"><div class="row"><div class="col">
 
-The Basic Concepts Mathematics Language Programme is for learners struggling with reading, writing, and basic mathematics skills. It is all available here and you can get started right away. <p/>
+<div class="container-fluid">
 
-<b>Help us overcome one of today's greatest challenges: Illiteracy in Africa!</b> <p/>
+  <div class="row">
+	<div class="col-md-6"><img src="world.jpg" style="width:100%;height:auto"/></div>  
+	<div class="col-md-6" style="background-color:lavender;">BASIC CONCEPTS<br>The FOUNDATION for LEARNING.<br>The BCMLP is used to teach<br>BASIC CONCEPTS
+		<div class="row">
+			<div class="col-md-12" style="background-color:lightcyan;">The BCMLP The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning
+</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="background-color:lightcyan;">.col-sm-6</div>
+		</div>
+    </div>
+  </div>
+</div>
 
-<img src="home-1.png" style="width:100%;height:auto"/> <p/>
-
-<b>The BCMLP is used to teach BASIC CONCEPTS</b><p/>
-
-<img src="home-2.png" style="width:100%;height:auto"/> <p/>
-
-<b>The FOUNDATION for LEARNING</b><p/>
-
-<img src="home-3.png" style="width:100%;height:auto"/> <p/>
-
-
-</div></div></div>
 </record><include path="header_footer.include"/>

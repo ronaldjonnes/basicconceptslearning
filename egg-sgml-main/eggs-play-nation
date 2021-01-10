@@ -1,0 +1,29 @@
+<record id="title">Delving into Egg-SGML</record><record id="content">
+
+As with the home page, and as mentioned there, we start off with the source document of this explanation page: <p/>
+<div class="source"><div class="tweakA"/><showsource path="eggs-play-nation"/><div class="tweakB"/></div>
+<p/><p/>
+For convenient reference, we repeat the home page document:<br>
+<div class="source"><div class="tweakA"/><showsource path="home"/><div class="tweakB"/></div>
+<p/><p/>
+Both documents have &lt;record id="title">, then &lt;record id="content">, followed by the same &lt;include>. <u>Reading through an HTML document from start to finish is following a depth-first search of the document tree.</u>
+<p/> Understanding that &lt;record> produces no output, we will now look at the included file (header_footer.include):
+<div class="source"><div class="tweakA"/><showsource path="header_footer.include"/><div class="tweakB"/></div>
+<p/><p/>
+Looking carefully you will now find &lt;play> tags corresponding to the &lt;record> tags seen earlier. Further &lt;include> tags have been used here to reduce the length of this page.
+<p/>
+The remaining source files (egg-sgml and php) are given <a href="egg-sourced">here</a>.
+<!--
+	The following server-processed tags are used here:
+<h4>record, play</h4>
+These tags work in conjunction: "record" stores the tree below that tag (called a clip) in an associative array, using the "id" attribute as the key (no output occurs). The tag "play" then attaches the corresponding subtree for processing as if it were included at that point. In these samples the "content" and "title" clips are used. Both are recorded in the individual pages, and played in the header_footer.include theme. <p/>
+<h5>include</h5>
+This tag simply attaches the document tree found in the referred file ("path" attribute) as if it were part of the overall document tree.
+<h2>showsource</h2>
+Outputs a formatted version of an Egg-SGML document. This makes use of the tag consumer stack.
+<h2>a.site</h2>
+Highlights a link with a given css class if the page is active.
+<h4>tag</h4>
+This tag does nothing except to satisfy the PHP XML parser of one root per document.
+-->
+</record><include path="header_footer.include"/>

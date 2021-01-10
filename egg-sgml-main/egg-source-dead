@@ -1,0 +1,14 @@
+<tag><record id="title">Egg-SGML: Source Code #2</record><record id="content">
+The source document of the page you are reading: <p/>
+<div class="source"><div class="tweakA"/><showsource path="egg-source-dead"/><div class="tweakB"/></div>
+
+<p/><p/> templates.php: <p/>
+<div class="source"><div class="tweakA"/><showphp path="2/templates.php"/><div class="tweakB"/></div>
+
+<p/><p/> eggsgml-loader.php : <p/>
+<div class="source"><div class="tweakA"/><showphp path="2/eggsgml-loader.php"/><div class="tweakB"/></div>
+
+<p/><p/> eggsgml.php (html parser): <p/>
+<div class="source"><div class="tweakA"/><showphp path="2/eggsgml.php"/><div class="tweakB"/></div>
+
+</record><include path="header_footer.include"/></tag>

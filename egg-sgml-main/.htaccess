@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([^.]*)$ /2/templates.php?c=1&t=%{REQUEST_URI} [END]
+RewriteBase /

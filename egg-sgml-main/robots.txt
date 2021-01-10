@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: https://egg-sgml.killtheworld.co.za/sitemap.xml
