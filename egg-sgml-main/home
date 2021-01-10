@@ -1,6 +1,0 @@
-<record id="title">Egg-SGML Test</record><record id="content">
-    This is an example website for Egg-SGML.
-<p/>To start off, this is the source document of the page you are viewing:<br/>
-<div class="source"><div class="tweakA"></div><showsource path="home"/><div class="tweakB"/></div>
-<p/><p/>This will be best contrasted with another page, which you will see when you <a href="/eggs-play-nation">continue to the explanation</a>.
-</record><include path="header_footer.include"/>
