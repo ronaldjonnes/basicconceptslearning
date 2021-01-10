@@ -1,24 +1,19 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
 
 <div class="container-fluid">
-	<div class="row">
-			<div class="col-lg-6"><img src="world.jpg" style="width:100%;height:auto"/>
-			<div class="row">
-			<div class="col-lg-12"><p>Image by <a href="https://pixabay.com/users/darkmoonart_de-1664300/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3258865">DarkmoonArt_de</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3258865">Pixabay</a></p></div>
-		</div></div>
-			<div class="col-lg-6" ><h3 style="text-align: center;"><strong>BASIC CONCEPTS</strong></h3>
-			<h3 style="text-align: center;"><strong>The </strong><strong>FOUNDATION </strong><strong>for </strong><strong>LEARNING.</strong></h3>
-			<h3 style="text-align: center;"><strong>The BCMLP is used to teach</strong></h3>
-			<h3 style="text-align: center;"><strong>BASIC CONCEPTS</strong></h3>
+
+  <div class="row">
+	<div class="col-md-6"><img src="world.jpg" style="width:100%;height:auto"/></div>  
+	<div class="col-md-6" style="background-color:lavender;">BASIC CONCEPTS<br/>The FOUNDATION for LEARNING.<br/>The BCMLP is used to teach<br/>BASIC CONCEPTS
 		<div class="row">
-			<div class="col-lg-12" ><h4 style="text-align: center;"><u>The BCMLP</u></h4><h4 style="text-align: center;">The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
+			<div class="col-md-12" style="background-color:lightcyan;">The BCMLP The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning
 </div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12" style="background-color:lightcyan;">.col-sm-6</div>
+			<div class="col-md-12" style="background-color:lightcyan;">.col-sm-6</div>
 		</div>
     </div>
-	</div>
+  </div>
 </div>
 
 </record><include path="header_footer.include"/>
