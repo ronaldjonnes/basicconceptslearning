@@ -1,6 +1,4 @@
-<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
-
-<head>
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 <style>
 .border-black {border:3px solid black;}
 .row-margin-05 { margin-top: 0.5em; }
@@ -8,7 +6,7 @@
 .row-margin-20 { margin-top: 2.0em; }
 .row-margin-30 { margin-top: 3.0em; }
 </style>
-</head>
+</record><record id="content">
 
 <body>
 <div class="container">

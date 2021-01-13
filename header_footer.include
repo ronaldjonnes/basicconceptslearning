@@ -4,6 +4,7 @@
 	<link rel="stylesheet" href="bootstrap.min.css"/>
 	<link rel="stylesheet" href="style.css"/>
 	<title><play id="title"/></title>
+	<play id="meta"/>
   </head>
 <body>
     <script src="bootstrap.bundle.min.js"></script>
