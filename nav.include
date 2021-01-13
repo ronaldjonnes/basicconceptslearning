@@ -1,4 +1,5 @@
-<header><nav class="navbar navbar-expand-sm navbar-light bg-light">
+<header><nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--I changed the class to 'lg' from 'sm' because the hamburger menu and body of the page are more appropriate for Mom's tablet in portrait view-->
   <div class="container-fluid">
     <a class="navbar-brand" href="#">BCMLP</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,24 +1,55 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
 
-<div class="container-fluid">
+<head>
+<style>
+.border-black {border:3px solid black;}
+.row-margin-05 { margin-top: 0.5em; }
+.row-margin-10 { margin-top: 2.0em; }
+.row-margin-20 { margin-top: 2.0em; }
+.row-margin-30 { margin-top: 3.0em; }
+</style>
+</head>
+
+<body>
+<div class="container">
 	<div class="row">
-			<div class="col-lg-6"><img src="world.jpg" style="width:100%;height:auto"/>
-			<div class="row">
-			<div class="col-lg-12"><p>Image by <a href="https://pixabay.com/users/darkmoonart_de-1664300/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3258865">DarkmoonArt_de</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3258865">Pixabay</a></p></div>
-		</div></div>
-			<div class="col-lg-6" ><h3 style="text-align: center;"><strong>BASIC CONCEPTS</strong></h3>
-			<h3 style="text-align: center;"><strong>The </strong><strong>FOUNDATION </strong><strong>for </strong><strong>LEARNING.</strong></h3>
-			<h3 style="text-align: center;"><strong>The BCMLP is used to teach</strong></h3>
-			<h3 style="text-align: center;"><strong>BASIC CONCEPTS</strong></h3>
-		<div class="row">
-			<div class="col-lg-12" ><h4 style="text-align: center;"><u>The BCMLP</u></h4><h4 style="text-align: center;">The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
-</div>
+		<div class="col-lg-7">
+			<img style="width: 100%; height: auto;" src="world.png" alt="World in hand" />
+			<p style ="font-size:9px;">Image by <a href="https://tinyurl.com/y6l3o58y" target="_blank" rel="noopener noreferrer">DarkmoonArt_de</a> from <a href="https://tinyurl.com/pkhu5r5" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
 		</div>
-		<div class="row">
-			<div class="col-lg-12" style="background-color:lightcyan;">.col-sm-6</div>
+		<div class="col-lg-5">
+		<div class="d-grid gap-2">
+		<div class="border-black" style="background:oldlace;">
+			<h3 style="text-align: center;"><strong> BASIC CONCEPTS </strong></h3>
+			<h3 style="text-align: center;"><strong> The </strong> <strong> FOUNDATION </strong> <strong> for </strong> <strong> LEARNING. </strong></h3>
+			<h3 style="text-align: center;"><strong> The BCMLP is used to teach </strong></h3>
+			<h3 style="text-align: center;"><strong> BASIC CONCEPTS </strong></h3>
 		</div>
-    </div>
+		<div class="border-black" style="background:oldlace;">
+			<h4 style="text-align: center;"><b><u> The BCMLP </u></b></h4>
+			<h4 style="text-align: center;">The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
+		</div>
+			<img style="width: 100%; height: auto;" src="colour_grid.png" alt="Colour grid"/>
+		</div>
+		</div>
 	</div>
+<div class="d-flex flex-column">
+	<div class="p-1 bg-dark text-light" style="text-align: center;"><strong>Click on the links for the main BCMLP sections</strong></div>
 </div>
+<br>
+<div class="row">
+	<div class="col"><a href="https://en.unesco.org/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="1.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="https://www.uj.ac.za/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="2.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="https://www2.deloitte.com/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="3.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="4.png" alt="Colour grid"/></a></div>
+</div>
+<div class="row">
+	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="5.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="6.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="7.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="8.png" alt="Colour grid"/></a></div>
+</div>
+</div>
+</body>
 
 </record><include path="header_footer.include"/>
