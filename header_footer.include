@@ -1,13 +1,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" href="bootstrap.min.css"/>
-	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="bootstrap-4.5.3/bootstrap.min.css"/>
 	<title><play id="title"/></title>
 	<play id="meta"/>
   </head>
 <body>
-    <script src="bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-4.5.3/bootstrap.bundle.min.js"/>
 
 <include path="nav.include"/>
 
