@@ -1,31 +1,27 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 <style>
 .border-black {border:3px solid black;}
-.row-margin-05 { margin-top: 0.5em; }
-.row-margin-10 { margin-top: 2.0em; }
-.row-margin-20 { margin-top: 2.0em; }
-.row-margin-30 { margin-top: 3.0em; }
+/*.row-margin-4em { margin-top: 4em; }*/
 </style>
 </record><record id="content">
 
-<body>
 <div class="container">
-	<div class="row">
+	<div class="row" style="padding-top: 4em">
 		<div class="col-lg-7">
 			<img style="width: 100%; height: auto;" src="world.png" alt="World in hand" />
 			<p style ="font-size:9px;">Image by <a href="https://tinyurl.com/y6l3o58y" target="_blank" rel="noopener noreferrer">DarkmoonArt_de</a> from <a href="https://tinyurl.com/pkhu5r5" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
 		</div>
 		<div class="col-lg-5">
 		<div class="d-grid gap-2">
-		<div class="border-black" style="background:oldlace;">
-			<h3 style="text-align: center;"><strong> BASIC CONCEPTS </strong></h3>
-			<h3 style="text-align: center;"><strong> The </strong> <strong> FOUNDATION </strong> <strong> for </strong> <strong> LEARNING. </strong></h3>
-			<h3 style="text-align: center;"><strong> The BCMLP is used to teach </strong></h3>
+		<div class="border border-dark border border-3" style="background:oldlace; text-align: center;">
+			<h3><strong> BASIC CONCEPTS </strong></h3>
+			<h3><strong> The </strong> <strong> FOUNDATION </strong> <strong> for </strong> <strong> LEARNING. </strong></h3>
+			<h3><strong> The BCMLP is used to teach </strong></h3>
 			<h3 style="text-align: center;"><strong> BASIC CONCEPTS </strong></h3>
 		</div>
-		<div class="border-black" style="background:oldlace;">
-			<h4 style="text-align: center;"><b><u> The BCMLP </u></b></h4>
-			<h4 style="text-align: center;">The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
+		<div class="border border-dark border border-3" style="background:oldlace; text-align: center;">
+			<h4><b><u> The BCMLP </u></b></h4>
+			<h4>The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
 		</div>
 			<img style="width: 100%; height: auto;" src="colour_grid.png" alt="Colour grid"/>
 		</div>
@@ -39,7 +35,7 @@
 	<div class="col"><a href="https://en.unesco.org/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="1.png" alt="Colour grid"/></a></div>
 	<div class="col"><a href="https://www.uj.ac.za/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="2.png" alt="Colour grid"/></a></div>
 	<div class="col"><a href="https://www2.deloitte.com/" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="3.png" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="4.png" alt="Colour grid"/></a></div>
+	<div class="col"><a href="https://coughupcovid.ca" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="4.png" alt="Colour grid"/></a></div>
 </div>
 <div class="row">
 	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="5.png" alt="Colour grid"/></a></div>
@@ -48,6 +44,5 @@
 	<div class="col"><a href="#" target="_blank" rel="noopener noreferrer"><img style="width: 100%; height: auto;" src="8.png" alt="Colour grid"/></a></div>
 </div>
 </div>
-</body>
 
 </record><include path="header_footer.include"/>
