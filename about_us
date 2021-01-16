@@ -1,5 +1,7 @@
-<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
-
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
+<!--
+	IMO one should not target body, html, or * when using a framework such as Bootstrap, and a 'max-width' should not be necessary as this is the point of the various Bootstrap containers and col specification.
+-->
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +72,7 @@ html {
   }
 }
 </style>
-
+</record><record id="content">
 <div class="container-fluid">
 <div class="row" style="padding-top: 4em">
 <div class="about-section">

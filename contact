@@ -1,6 +1,8 @@
-<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 <link rel="stylesheet" href="/contact-form/form.css" >
 <script src="/contact-form/form.js"></script>
+</record><record id="content">
+
 <div class="container-fluid">
 <div class="row" style="padding-top: 4em">
 	<div id="form-main">
