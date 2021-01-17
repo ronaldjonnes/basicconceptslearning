@@ -1,0 +1,14 @@
+<module path="../../mail.php"><mail diag to=brian@jonnes.co.za subject=test from=brian@killtheworld.co.za><html><body>Message sent from <output name=name/>, email address <output name=email/>:<br/>
+<output name=message/></body></html></mail><html>
+<body>
+<form method=post>
+Name: <input.mail name=name value=""/><br/>
+Email: <input.mail name=email value=""/><error.mail a=email>Email address required.</error.mail><br/>
+Message: <input.mail name=message value=""/><br/>
+<input type=hidden name=token value=1/>
+<input type=submit/>
+<br/>
+<ok.mail>Message sent.</ok.mail>
+</form>
+</body>
+</html></module>
