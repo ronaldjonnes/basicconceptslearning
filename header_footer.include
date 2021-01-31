@@ -16,10 +16,10 @@
 <div class="container-fluid">
 	<div class="row">
 	<div class="col-lg-7">
-	<div>Built on <strong>egg-sgml</strong>, created by B Jonnes</div>
+	<div><!--Built on <strong>egg-sgml</strong>, created by B Jonnes--></div>
 	</div>
 	<div class="col-lg-5 text-end">
-	<div>Revision I</div>
+	<div>Egg-SGML v 1 / Revision I</div>
 	</div>
 	</div>
 </div>
