@@ -1,4 +1,4 @@
-<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
+<record id="title">About US - BCMLP</record><record id="meta">
 <!--IMO one should not target body, html, or * when using a framework such as Bootstrap, and a 'max-width' should not be necessary as this is the point of the various Bootstrap containers and col specification.-->
 <!--ADD FLEXBOX COLUMNS AND REMOVE @MEDIA SCREEN...-->
 <style>
