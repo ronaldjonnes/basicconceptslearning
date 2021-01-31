@@ -1,21 +1,7 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
-<!--
-	IMO one should not target body, html, or * when using a framework such as Bootstrap, and a 'max-width' should not be necessary as this is the point of the various Bootstrap containers and col specification.
--->
+<!--IMO one should not target body, html, or * when using a framework such as Bootstrap, and a 'max-width' should not be necessary as this is the point of the various Bootstrap containers and col specification.-->
+<!--ADD FLEXBOX COLUMNS AND REMOVE @MEDIA SCREEN...-->
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 .column {
   float: left;
   width: 33.3%;
@@ -55,7 +41,7 @@ html {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #444;
   text-align: center;
   cursor: pointer;
   width: 100%;

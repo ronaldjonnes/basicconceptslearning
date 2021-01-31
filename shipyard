@@ -1,9 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="bootstrap.min.css"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+<div class="container-fluid">
+<div class="row py-3">
+
 <form>
-<input type="text" name="shipyard"/>
-<input type="submit"/>
+	<div class="mb-3">
+	<label  class="form-label">Type in the Password</label>
+	<div class="col-4"> <input type="password" class="form-control" name="shipyard"/></div>
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
 </form>
-</body></html>
+<!--<form>
+<p><label for="username">Type in your password:</label></p>
+<p><input type="password" name="shipyard"/></p>
+<input type="submit"/>
+</form>-->
+</div>
+</div>
+</body>
+</html>

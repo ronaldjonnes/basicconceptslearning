@@ -1,26 +1,28 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" href="bootstrap.min.css"/>
 	<link rel="stylesheet" href="style.css"/>
 	<title><play id="title"/></title>
 	<play id="meta"/>
-  </head>
-<body>
-    <script src="bootstrap.bundle.min.js"/>
-
+	</head>
+	<body>
+	<script src="bootstrap.bundle.min.js"/>
 <include path="nav.include"/>
-
-<main class="flex-shrink-0">
-	<play id="content"/>
+<main>
+<play id="content"/>
 </main>
-
-<footer class="footer mt-auto py-3">
-<hr/>
-<!--div class="container-fluid">
-	<a href="https://github.com/brianjonnes/egg-sgml">Egg-SGML on Github</a>
-</div-->
+<footer class="footer py-3 px-2 bg-dark text-white">
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-lg-7">
+	<div>Built on <strong>egg-sgml</strong>, created by B Jonnes</div>
+	</div>
+	<div class="col-lg-5 text-end">
+	<div>Revision I</div>
+	</div>
+	</div>
+</div>
 </footer>
-
-  </body>
+</body>
 </html>
