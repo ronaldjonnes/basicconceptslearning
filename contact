@@ -1,5 +1,5 @@
 <module path="mail.php"><mail pg_connection_file=""
- to="brian@jonnes.co.za" from="website@killtheworld.co.za" subject="BCMLP: New message"><html>
+ to="brian@jonnes.co.za, ronald@jonnes.co.za" from="webform@bcmlp.killtheworld.co.za" subject="BCMLP: New message"><html>
 <body>
 You have a new message from your contact form
 <hr>
