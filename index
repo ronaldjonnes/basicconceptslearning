@@ -1,6 +1,4 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
-<style>
-</style>
 </record><record id="content">
 
 <div class="container-fluid">
@@ -72,5 +70,5 @@
 </div>
 <div class="row" style="padding-bottom: 1em">
 </div>
-
+</div>
 </record><include path="header_footer.include"/>
