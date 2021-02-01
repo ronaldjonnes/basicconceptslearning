@@ -15,13 +15,15 @@ You have a new message from your contact form
 </html>
 </mail><record id="title">Contact Us - BCMLP</record><record id="meta">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	
     <link href="bootstrapious/custom.css" rel='stylesheet' type='text/css'>
 </record><record id="content">
 
 <div class="container-fluid">
-<div class="row" style="padding-top: 4em">
-            <div class="col-xl-8 offset-xl-2">
-                <h1>Contact Us</h1>
+	<div class="row" style="padding-top: 4em">
+		<div class="col-xl-8 offset-xl-2">
+			<div class="shadow-lg p-2 mb-5 bg-white rounded">
+				<h1>Contact Us</h1>
                 <form id="contact-form" method="post" role="form">
                     <div class="messages">
 						<ok.mail><p>Your message has been sent</p></ok.mail>
@@ -53,12 +55,12 @@ You have a new message from your contact form
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_need">Please specify your need *<error.exist name=need> (please specify)</error.exist></label>
+                                    <label for="form_need">Please specify your requirement*<error.exist name=need> (please specify)</error.exist></label>
                                     <select.mail id="form_need" name="need" class="form-control" required data-error="Please specify your need.">
                                         <option value=""></option>
-                                        <option value="Request quotation">Request quotation</option>
-                                        <option value="Request order status">Request order status</option>
-                                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                                        <option value="Request quotation">Requirement 1</option>
+                                        <option value="Request order status">Requirement 2</option>
+                                        <option value="Request copy of an invoice">Requirement 3</option>
                                         <option value="Other">Other</option>
                                     </select.mail>
                                     <div class="help-block with-errors"></div>
@@ -85,9 +87,10 @@ You have a new message from your contact form
                         </div>
                     </div>
                 </form>
-            </div>
-        </div>
-    </div>
+			</div>
+		</div>
+	</div>
+</div>
 <!--
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

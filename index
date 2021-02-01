@@ -4,7 +4,7 @@
 </record><record id="content">
 
 <div class="container-fluid">
-	<div class="row" style="padding-top: 4em">
+	<div class="row" style="padding-top: 1em">
 		<div class="col-lg-7">
 			<img style="width: 100%; height: auto;" src="world.png" alt="World in hand" />
 			<p style ="font-size:9px;">Image by <a href="https://tinyurl.com/y6l3o58y" target="_blank" rel="noopener noreferrer">DarkmoonArt_de</a> from <a href="https://tinyurl.com/pkhu5r5" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
@@ -70,6 +70,7 @@
 	</div>
 	</div>
 </div>
+<div class="row" style="padding-bottom: 1em">
 </div>
 
 </record><include path="header_footer.include"/>
