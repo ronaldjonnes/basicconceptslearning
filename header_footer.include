@@ -19,7 +19,7 @@
 	<div><!--Built on <strong>egg-sgml</strong>, created by B Jonnes--></div>
 	</div>
 	<div class="col-lg-5 text-end">
-	<div>Egg-SGML v 1.17 &bull; Revision 1</div>
+	<div>Egg-SGML v <eggsgml_version/> &bull; Revision 1.1</div>
 	</div>
 	</div>
 </div>
