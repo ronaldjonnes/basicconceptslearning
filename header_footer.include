@@ -5,6 +5,9 @@
 	<link rel="icon" href="/spiked.jpg"/>
 	<title><play id="title"/></title>
 	<play id="meta"/>
+	<style>
+		.nav-item a.active { font-weight: bold; }
+	</style>
 	</head>
 	<body>
 	<script src="bootstrap-5.0.0-beta1/bootstrap.bundle.min.js"/>
