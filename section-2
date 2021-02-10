@@ -1,0 +1,19 @@
+<record id="course-nav">
+        <li class="nav-item">
+          <a.site class="nav-link" activeclass="active" href="/course-2">Course 2 - Language, Colour</a.site>
+        </li>
+        <!-- li class="nav-item">
+          <a.site class="nav-link" activeclass="active" href="/course-3">Next course</a.site>
+        </li -->
+</record>
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="content">
+<div class="container-fluid">
+	<div class="row" style="padding-top: 6em">
+<div class="col">
+
+2 - Language, Colour <p/>
+
+
+</div></div>
+</div>
+</record><include path="header_footer.include"/>

@@ -225,11 +225,11 @@ class tgc_module_mail {
 	function validate() {
 		$this->validity = 2;
 		$this->check_exists( 'name' );
-		$this->check_exists( 'surname' );
+		#$this->check_exists( 'surname' );
 		if( $this->check_exists( 'email' ) ) {
 			$this->ok_format['email'] = $this->valid_email( $_POST['email'] );
 		}
-		$this->check_exists( 'need' );
+		#$this->check_exists( 'need' );
 		$this->check_exists( 'message' );
 	}
 	function add_record($connection_file) {

@@ -1,0 +1,56 @@
+<module path="mail.php"><mail pg_connection_file="" to="brian@jonnes.co.za, ronald@jonnes.co.za" from="webform@bcmlp.killtheworld.co.za" subject="BCMLP: New message"><html>
+<body>
+You have a new message from your contact form
+<hr>
+<table>
+<tr><td>
+<tr><td>Name:<td><output name=name/></td></tr>
+<!-- <tr><td>Surname:</td><td><output name=surname/></td></tr> -->
+<tr><td>Email:<td><output name=email/></td></tr>
+<!-- <tr><td>Requirement:</td><td><output name=need/></td></tr> -->
+<tr><td>Message:<td><output name=message/></td></tr>
+</table>
+</body>
+</html>
+</mail><record id="title">Contact Us - BCMLP</record><record id="meta">
+</record><record id="content">
+
+<style>
+.montform .feedback-input {color:#3c3c3c; font-family: Helvetica, Arial, sans-serif; font-weight:500; font-size: 18px; border-radius: 9px; padding: 13px 13px 13px 54px; margin-bottom: 10px; box-sizing: border-box; border: unset;}
+.montform .feedback-input:focus{background: #fff; color: #3498db; outline: none;}
+.montform  #name{background-image: url(/resources/fi-address-book.svg); background-size: 30px 30px; background-position: 11px 8px; background-repeat: no-repeat;}
+.montform  #name:focus{background-image: url(/resources/fi-address-book.svg); background-size: 30px 30px; background-position: 11px 8px; background-repeat: no-repeat;}
+.montform  #email{background-image: url(/resources/fi-mail.svg); background-size: 30px 30px; background-position: 11px 8px; background-repeat: no-repeat;}
+.montform  #email:focus{background-image: url(/resources/fi-mail.svg); background-size: 30px 30px; background-position: 11px 8px; background-repeat: no-repeat;}
+.montform  #comment{background-image: url(/resources/fi-pencil.svg); background-size: 30px 30px; background-position: 11px 8px; background-repeat: no-repeat;}
+.montform  input:hover, .montform  textarea:hover, .montform  input:focus, .montform  textarea:focus {background-color:#e6e6e6;}
+.page-holder {min-height: 100vh;}
+.bg-cover {background-size: cover !important;}
+</style>
+
+<div style="background: url(/resources/background_1.jpg)" class="page-holder bg-cover">
+<div class="container-fluid">
+	<div class="row justify-content-center" style="color: #e6e6e6; padding-top: 5em">
+		<div class="col-lg-5 p-4 rounded" style="background-color:rgba(0,0,0,.7)">
+			<h1>Get in touch with us</h1>
+			<p><strong>* These fields are required.</strong></p>
+			<form class="montform" method="post">
+				<div class="row">
+					<ok.mail><span style="color: #00cc00">Your message has been sent</span></ok.mail>
+					<error.mail><span style="color: #FFC200">Invalid submission: please check all fields.</span></error.mail>	
+					<label for="name">Name * <error.exist name=name><span style="color: #FFC200">(please specify)</span></error.exist></label>
+					<input.mail type="text" name="name" class="feedback-input" id="name" placeholder="Name"/>
+					<label for="email">Email *<error.exist name=email><span style="color: #FFC200"> (please specify)</span></error.exist><error.format name=email> (please specify a valid email address)</error.format></label>
+					<input.mail type="email" name="email" class="feedback-input" id="email" placeholder="Email"/>
+					<label for="comment">Message *<error.exist name=message><span style="color: #FFC200"> (please specify)</span></error.exist></label>
+					<textarea.mail name="message" class="feedback-input" id="comment" placeholder="Message" rows="4"/>
+					<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="row" style="padding-bottom: 1em"></div>
+</div>
+</div>
+
+</record><include path="header_footer.include"/></module>

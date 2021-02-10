@@ -2,9 +2,10 @@
 </record><record id="content">
 
 <div class="container-fluid">
-	<div class="row" style="padding-top: 1em">
+<div class="row" style="padding-top: .4em"></div>
+	<div class="row">
 		<div class="col-lg-7">
-			<img style="width: 100%; height: auto;" src="world.png" alt="World in hand" />
+			<img style="width: 100%; height: auto;" src="/resources/world.png" alt="World in hand" />
 			<p style ="font-size:9px;">Image by <a href="https://tinyurl.com/y6l3o58y" target="_blank" rel="noopener noreferrer">DarkmoonArt_de</a> from <a href="https://tinyurl.com/pkhu5r5" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
 		</div>
 		<div class="col-lg-5">
@@ -19,7 +20,7 @@
 			<h4><b><u> The BCMLP </u></b></h4>
 			<h4>The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
 		</div>
-			<img style="width: 100%; height: auto;" src="colour_grid.jpg" alt="Colour grid"/>
+			<img style="width: 100%; height: auto;" src="/resources/colour_grid.jpg" alt="Colour grid"/>
 		</div>
 		</div>
 	</div>
@@ -29,46 +30,46 @@
 <div class="row pt-2">
 	<div class="col-lg-6">
 	<div class="row pt-2">
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="1.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="2.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/1.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/2.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 	<div class="col-lg-6">
 	<div class="row pt-2">
-	<div class="col"><a href=""><img style="width: 100%; height: auto;" src="3.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="4.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href=""><img style="width: 100%; height: auto;" src="/resources/3.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/4.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 </div>
 <div class="row pt-2">
 	<div class="col-lg-6">
 	<div class="row pt-2">
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="5.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="6.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/5.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/6.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>	
 	<div class="col-lg-6">
 	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="7.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="8.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/7.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/8.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 </div>
 <div class="row pt-2">
 	<div class="col-lg-6">
 	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="9.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="10.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/9.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/10.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 	<div class="col-lg-6">
 	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="11.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="12.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/11.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/12.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 </div>
-<div class="row" style="padding-bottom: 1em">
+<div class="row" style="padding-bottom: .4em"></div>
 </div>
-</div>
+
 </record><include path="header_footer.include"/>

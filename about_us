@@ -1,112 +1,54 @@
-<record id="title">About US - BCMLP</record><record id="meta">
-<!--IMO one should not target body, html, or * when using a framework such as Bootstrap, and a 'max-width' should not be necessary as this is the point of the various Bootstrap containers and col specification.-->
-<!--ADD FLEXBOX COLUMNS AND REMOVE @MEDIA SCREEN...-->
-<style>
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #444;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 </record><record id="content">
+
 <div class="container-fluid">
-<div class="row" style="padding-top: 4em">
-<div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+<div class="row" style="padding-top: .4em"></div>
+<div class="pt-2 d-flex flex-column">
+	<div class="p-2 bg-primary text-white" style="text-align: center;"><strong>D. The Outline of the Basic Concept Mathematics Language Programme</strong></div>
 </div>
-
-<h2 style="text-align:center">Our Team</h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+<div class="row pt-2">
+	<div class="col-lg-6">
+	<div class="row pt-2">
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/1-about_us.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/2.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="row pt-2">
+	<div class="col"><a href=""><img style="width: 100%; height: auto;" src="/resources/3.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/4.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>
+</div>
+<div class="row pt-2">
+	<div class="col-lg-6">
+	<div class="row pt-2">
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/5.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/6.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>	
+	<div class="col-lg-6">
+	<div class="row pt-2">	
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/7.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/8.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>
+</div>
+<div class="row pt-2">
+	<div class="col-lg-6">
+	<div class="row pt-2">	
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/9.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/10.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>
+	<div class="col-lg-6">
+	<div class="row pt-2">	
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/11.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/12.jpg" alt="Colour grid"/></a></div>
+	</div>
+	</div>
+</div>
+<div class="row" style="padding-bottom: .4em"></div>
 </div>
 
 </record><include path="header_footer.include"/>
