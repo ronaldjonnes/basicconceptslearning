@@ -2,7 +2,7 @@
 </record><record id="content">
 
 <div class="container-fluid">
-<div class="row" style="padding-top: .4em"></div>
+<div class="row" style="padding-top: .2em"></div>
 	<div class="row">
 		<div class="col-lg-7">
 			<img style="width: 100%; height: auto;" src="/resources/world.png" alt="World in hand" />
@@ -69,7 +69,7 @@
 	</div>
 	</div>
 </div>
-<div class="row" style="padding-bottom: .4em"></div>
+<div class="row" style="padding-bottom: .2em"></div>
 </div>
 
 </record><include path="header_footer.include"/>

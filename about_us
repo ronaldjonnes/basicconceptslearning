@@ -2,53 +2,36 @@
 </record><record id="content">
 
 <div class="container-fluid">
-<div class="row" style="padding-top: .4em"></div>
-<div class="pt-2 d-flex flex-column">
-	<div class="p-2 bg-primary text-white" style="text-align: center;"><strong>D. The Outline of the Basic Concept Mathematics Language Programme</strong></div>
+<div class="row" style="padding-top: .2em"></div>
+<div class="p-2 bg-primary text-white" style="text-align: center;"><strong>D. The Outline of the Basic Concept Mathematics Language Programme</strong></div>
+<div class="row">
+	<div class="col-lg-6 pt-1">
+	<img style="width: 100%; height: auto;" src="/resources/1_4-about_us.jpg" alt="About 1-2"/>
+	</div>
+	<div class="col-lg-6 pt-1">
+	<img style="width: 100%; height: auto;" src="/resources/a-about_us.jpg" alt="About A"/>
+	</div>
+	<!-- <div class="col-lg-4 pt-1"> -->
+	<!-- <img style="width: 100%; height: auto;" src="/resources/4_5-about_us.jpg" alt="About A"/> -->
+	<!-- </div> -->
 </div>
-<div class="row pt-2">
-	<div class="col-lg-6">
-	<div class="row pt-2">
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/1-about_us.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/2.jpg" alt="Colour grid"/></a></div>
+<div class="row">
+	<div class="col-lg-6 pt-1">
+	<img style="width: 100%; height: auto;" src="/resources/b-about_us.jpg" alt="About B"/>
 	</div>
-	</div>
-	<div class="col-lg-6">
-	<div class="row pt-2">
-	<div class="col"><a href=""><img style="width: 100%; height: auto;" src="/resources/3.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/4.jpg" alt="Colour grid"/></a></div>
-	</div>
-	</div>
-</div>
-<div class="row pt-2">
-	<div class="col-lg-6">
-	<div class="row pt-2">
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/5.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/6.jpg" alt="Colour grid"/></a></div>
-	</div>
-	</div>	
-	<div class="col-lg-6">
-	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/7.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/8.jpg" alt="Colour grid"/></a></div>
-	</div>
+	<div class="col-lg-6 pt-1">
+	<img style="width: 100%; height: auto;" src="/resources/c-about_us.jpg" alt="About C"/>
 	</div>
 </div>
-<div class="row pt-2">
-	<div class="col-lg-6">
-	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/9.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/10.jpg" alt="Colour grid"/></a></div>
-	</div>
-	</div>
-	<div class="col-lg-6">
-	<div class="row pt-2">	
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/11.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img style="width: 100%; height: auto;" src="/resources/12.jpg" alt="Colour grid"/></a></div>
-	</div>
-	</div>
-</div>
-<div class="row" style="padding-bottom: .4em"></div>
+<!-- <div class="row"> -->
+	<!-- <div class="col-lg-6 pt-1"> -->
+	<!-- <img style="width: 100%; height: auto;" src="/resources/1_2-about_us.jpg" alt="About 1-2"/> -->
+	<!-- </div> -->
+	<!-- <div class="col-lg-6 pt-1"> -->
+	<!-- <img style="width: 100%; height: auto;" src="/resources/a-about_us.jpg" alt="About A"/> -->
+	<!-- </div> -->
+<!-- </div> -->
+<div class="row" style="padding-bottom: .2em"></div>
 </div>
 
 </record><include path="header_footer.include"/>
