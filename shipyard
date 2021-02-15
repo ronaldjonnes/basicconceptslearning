@@ -8,6 +8,8 @@
 <div class="container-fluid">
 <div class="row py-3">
 
+<shipyard_login_failed>
+Please check password and try again.</shipyard_login_failed>
 <form>
 	<div class="mb-3">
 	<label  class="form-label">Type in the Password</label>
