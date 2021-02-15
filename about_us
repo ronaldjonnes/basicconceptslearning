@@ -3,32 +3,32 @@
 
 <div class="container-fluid">
 <div class="row" style="padding-top: .2em"></div>
-<div class="p-2 bg-primary text-white" style="text-align: center;"><strong>D. The Outline of the Basic Concept Mathematics Language Programme</strong></div>
+<div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
 <div class="row">
 	<div class="col-lg-6 pt-1">
-	<img style="width: 100%; height: auto;" src="/resources/1_4-about_us.jpg" alt="About 1-2"/>
+	<img class="img-fluid" src="/resources/1_4-about_us.jpg" alt="About 1-2"/>
 	</div>
 	<div class="col-lg-6 pt-1">
-	<img style="width: 100%; height: auto;" src="/resources/a-about_us.jpg" alt="About A"/>
+	<img class="img-fluid" src="/resources/a-about_us.jpg" alt="About A"/>
 	</div>
 	<!-- <div class="col-lg-4 pt-1"> -->
-	<!-- <img style="width: 100%; height: auto;" src="/resources/4_5-about_us.jpg" alt="About A"/> -->
+	<!-- <img class="img-fluid" src="/resources/4_5-about_us.jpg" alt="About A"/> -->
 	<!-- </div> -->
 </div>
 <div class="row">
 	<div class="col-lg-6 pt-1">
-	<img style="width: 100%; height: auto;" src="/resources/b-about_us.jpg" alt="About B"/>
+	<img class="img-fluid" src="/resources/b-about_us.jpg" alt="About B"/>
 	</div>
 	<div class="col-lg-6 pt-1">
-	<img style="width: 100%; height: auto;" src="/resources/c-about_us.jpg" alt="About C"/>
+	<img class="img-fluid" src="/resources/c-about_us.jpg" alt="About C"/>
 	</div>
 </div>
 <!-- <div class="row"> -->
 	<!-- <div class="col-lg-6 pt-1"> -->
-	<!-- <img style="width: 100%; height: auto;" src="/resources/1_2-about_us.jpg" alt="About 1-2"/> -->
+	<!-- <img class="img-fluid" src="/resources/1_2-about_us.jpg" alt="About 1-2"/> -->
 	<!-- </div> -->
 	<!-- <div class="col-lg-6 pt-1"> -->
-	<!-- <img style="width: 100%; height: auto;" src="/resources/a-about_us.jpg" alt="About A"/> -->
+	<!-- <img class="img-fluid" src="/resources/a-about_us.jpg" alt="About A"/> -->
 	<!-- </div> -->
 <!-- </div> -->
 <div class="row" style="padding-bottom: .2em"></div>
