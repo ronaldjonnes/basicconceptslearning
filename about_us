@@ -6,10 +6,10 @@
 <div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
 <div class="row">
 	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/1_4-about_us.jpg" alt="About 1-2"/>
+	<img class="img-fluid" src="/resources/1_4-about_us.svg" alt="About 1-4"/>
 	</div>
 	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/a-about_us.jpg" alt="About A"/>
+	<img class="img-fluid" src="/resources/a-about_us.svg" alt="About A"/>
 	</div>
 	<!-- <div class="col-lg-4 pt-1"> -->
 	<!-- <img class="img-fluid" src="/resources/4_5-about_us.jpg" alt="About A"/> -->
@@ -17,10 +17,10 @@
 </div>
 <div class="row">
 	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/b-about_us.jpg" alt="About B"/>
+	<img class="img-fluid" src="/resources/b-about_us.svg" alt="About B"/>
 	</div>
 	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/c-about_us.jpg" alt="About C"/>
+	<img class="img-fluid" src="/resources/c-about_us.svg" alt="About C"/>
 	</div>
 </div>
 <!-- <div class="row"> -->

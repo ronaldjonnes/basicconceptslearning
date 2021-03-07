@@ -9,25 +9,25 @@
 		<ul class="navbar-nav">
 <!--			<li class="nav-item"><a class="nav-link" href="/#">Home</a></li>-->
 			<li class="nav-item"><a.site activeclass="active" class="nav-link" href="/about_us">About Us</a.site></li>
-			<li class="nav-item"><a.site activeclass="active" class="nav-link" href="/formpage">Contact Us</a.site></li>
+			<li class="nav-item"><a.site activeclass="active" class="nav-link" href="/contact_us">Contact Us</a.site></li>
 <!--			<li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>-->
 			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown">Sections</a>
 				<ul class="dropdown-menu dropdown-menu-dark">
 					<!-- <li><a.site activeclass="active" class="dropdown-item" href="https://en.unesco.org/" target="_blank" rel="noopener noreferrer">UNESCO</a.site></li> -->
 					<!-- <li><a.site activeclass="active" class="dropdown-item" href="https://www.uj.ac.za/" target="_blank" rel="noopener noreferrer">University of Johannesburg</a.site></li> -->
 					<!-- <li><hr class="dropdown-divider"></li> -->
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-1">Section 1</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-2">Section 2</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-3">Section 3</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-4">Section 4</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-5">Section 5</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-6">Section 6</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-7">Section 7</a.site></li>
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-1">Section 1</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-2">Section 2</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-3">Section 3</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-4">Section 4</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-5">Section 5</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-6">Section 6</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-7">Section 7</a.site></li> -->
 					<li><a.site activeclass="active" class="dropdown-item" href="/section-8">Section 8</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-9">Section 9</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-10">Section 10</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-11">Section 11</a.site></li>
-					<li><a.site activeclass="active" class="dropdown-item" href="/section-12">Section 12</a.site></li>
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-9">Section 9</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-10">Section 10</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-11">Section 11</a.site></li> -->
+					<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section-12">Section 12</a.site></li> -->
 				</ul>
 			</li>
 		</ul>

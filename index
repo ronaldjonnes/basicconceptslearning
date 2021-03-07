@@ -5,7 +5,7 @@
 <div class="row" style="padding-top: .2em"></div>
 	<div class="row">
 		<div class="col-lg-7">
-			<img style="width: 100%; height: auto" src="/resources/world.png" alt="World in hand" />
+			<img style="width: 100%; height: auto" src="/resources/world-in-hands.jpg" alt="World in hands" />
 			<p style="font-size:9px">Image by <a href="https://tinyurl.com/y6l3o58y" target="_blank" rel="noopener noreferrer">DarkmoonArt_de</a> from <a href="https://tinyurl.com/pkhu5r5" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
 		</div>
 		<div class="col-lg-5">
@@ -22,17 +22,17 @@
 			<img class="img-fluid" src="/resources/colour_grid.jpg" alt="Colour grid"/>
 		</div>
 	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><strong>Tap/click on the  boxes below for the main BCMLP sections</strong></div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>Tap/click on the boxes below to access the main BCMLP sections.</strong></h3></div>
 <div class="row">
 	<div class="col-lg-6">
 	<div class="row pt-1">
 	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid"><img class="img-fluid" src="/resources/2.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/2.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 	<div class="col-lg-6">
 	<div class="row pt-1">
-	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid"><img class="img-fluid" src="/resources/3.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3.jpg" alt="Colour grid"/></a></div>
 	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/4.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
@@ -47,7 +47,7 @@
 	<div class="col-lg-6">
 	<div class="row pt-1">	
 	<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7.jpg" alt="Colour grid"/></a></div>
-	<div class="col"><a href="#"><img class="img-fluid" src="/resources/8.jpg" alt="Colour grid"/></a></div>
+	<div class="col"><a href="section-8"><img class="img-fluid" src="/resources/8.jpg" alt="Colour grid"/></a></div>
 	</div>
 	</div>
 </div>
