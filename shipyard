@@ -17,11 +17,6 @@ Please check password and try again.</shipyard_login_failed>
 	</div>
 	<button type="submit" class="btn btn-primary">Submit</button>
 </form>
-<!--<form>
-<p><label for="username">Type in your password:</label></p>
-<p><input type="password" name="shipyard"/></p>
-<input type="submit"/>
-</form>-->
 </div>
 </div>
 </body>
