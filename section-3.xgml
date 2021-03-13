@@ -1,11 +1,65 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 </record><record id="content">
 
-<div class="container-fluid">
-<div class="row" style="padding-top: .2em"></div>
-<div class="col">
-BC Skills<p/>
+<div class="container-fluid py-1">
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3_1-section3.jpg" alt="The BC Journey"></div>
+		<div class="col-lg-4 mt-1 pt-4 border border-dark border border-3" style="background: red; text-align: center"><h3><strong>This section is the start of the Basic Concept Mathematics Language Programme BCMLP.<br/>****************<br/>The language linked to the visual and the practical doing of the activities is THE CRITICAL FOUNDATION FOR ALL FUTURE LEARNING.</strong></h3></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3_3-section3.jpg" alt="bottle tops"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3_4-section3.jpg" alt="same"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3_5-section3.jpg" alt="similar"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3_6-section3.jpg" alt="different"></div>
+	</div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>Tap/click on the boxes below to access Subsections A to K.</strong></h3></div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3a-section3.jpg" alt="Introduction"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3b-section3.jpg" alt="Sorting"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3c-section3.jpg" alt="Rows"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3d-section3.jpg" alt="Sequencing"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3e-section3.jpg" alt="Colour grid"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3f-section3.jpg" alt="Colour grid"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3g-section3.jpg" alt="Colour grid"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3h-section3.jpg" alt="Colour grid"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3i-section3.jpg" alt="Colour grid"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3j-section3.jpg" alt="Colour grid"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3k-section3.jpg" alt="Colour grid"></div>
+	</div>
+	<!-- <div class="row"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8l-section8.jpg" alt="Colour grid"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8m-section8.svg" alt="Colour grid"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8n-section8.svg" alt="Colour grid"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row"> -->
+		<!-- <div class="col-lg-12 pt-1"><img class="img-fluid" src="/resources/8last-section8.svg" alt="Colour grid"></div> -->
+	<!-- </div> -->
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#fdf5e6d9">
+      <div class="modal-header">
+        <img src="/resources/spiked.jpg" width="45" alt="Spiked Balls"><span  class="m-1">BCMLP</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead" style="font-size:22px; text-align: center"><strong>This Section is still under development.<br/>Section 8 is active.</strong></p>
+      </div>
+      <!-- <div class="modal-footer"> -->
+        <!-- <button type="button" class="btn  btn-outline-primary" data-bs-dismiss="modal">Close</button> -->
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      <!-- </div> -->
+    </div>
+  </div>
 </div>
 
 </record><include path="header_footer.include"/>

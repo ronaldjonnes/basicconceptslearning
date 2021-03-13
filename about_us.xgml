@@ -1,8 +1,7 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 </record><record id="content">
 
-<div class="container-fluid">
-<div class="row" style="padding-top: .2em"></div>
+<div class="container-fluid py-1">
 <div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
 <div class="row">
 	<div class="col-lg-6 pt-1">
@@ -31,7 +30,6 @@
 	<!-- <img class="img-fluid" src="/resources/a-about_us.jpg" alt="About A"/> -->
 	<!-- </div> -->
 <!-- </div> -->
-<div class="row" style="padding-bottom: .2em"></div>
 </div>
 
 </record><include path="header_footer.include"/>
