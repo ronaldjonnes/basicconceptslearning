@@ -1,11 +1,53 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
 </record><record id="content">
 
-<div class="container-fluid">
-<div class="row" style="padding-top: .2em"></div>
-<div class="col">
-BC Equipment<p/>
+<div class="container-fluid py-1">
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-1.jpg" alt="Basic Concept Equipment"></div>
+		<div class="col-lg-4 mt-1 pt-4 border border-dark border border-3" style="background: red; text-align: center"><h3><strong>This section provides the equipment for carrying out the Basic Concept Language and Mathematics Programme BCLMP.<br/>****************<br/>The equipment allows multi-sensory, multi-media experiences for THE CRITICAL FOUNDATION FOR ALL FUTURE LEARNING.</strong></h3></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-3.jpg" alt="Basic Concept Teddies"/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-4.jpg" alt="House"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-5.jpg" alt="Fire engine"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-6.jpg" alt="Colour triangle"></div>
+	</div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>Tap/click on the boxes below to access Subsections A to K.</strong></h3></div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4a.jpg" alt="Basic BC Equipment"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4b.jpg" alt="Multi-sensory"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4c.jpg" alt="Drawings"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4d.jpg" alt="Teddy Family"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4e.jpg" alt="Puppets"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4f.jpg" alt="Position Toys"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4g.jpg" alt="Fine motor trays"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4h.jpg" alt="BC shapes built using bottle tops"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4i.jpg" alt="Building objects using bottle tops"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4j.jpg" alt="Building with a variety of shape equipment"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4k.jpg" alt="Reading books LNTB"></div>
+	</div>
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:#fdf5e6d9">
+      <div class="modal-header">
+        <img src="/resources/spiked.jpg" width="45" alt="Spiked Balls"><span  class="m-1">BCMLP</span>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead" style="font-size:22px; text-align: center"><strong>This Section is still under development.<br/>Section 8 is active.</strong></p>
+      </div>
+    </div>
+  </div>
 </div>
 
 </record><include path="header_footer.include"/>
