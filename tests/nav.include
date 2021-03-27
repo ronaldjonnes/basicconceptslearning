@@ -1,0 +1,13 @@
+<div class="w3-bar w3-theme-l3 w3-border-bottom w3-border-top w3-border-theme nav">
+<div class="ab">
+	<button class="w3-bar-item w3-button w3-show-large" onclick="parentNode.className=parentNode.className.substring(1)+parentNode.className.substring(0,1);">&#9776;</button>
+	<a class="w3-bar-item version" href="/changelog">-</a>
+	<div class="w3-bar-item"><a class=home href="/home">K<small>ILL</small> <small>THE</small> W<small>ORLD</small></a></div>
+    <a.site class="w3-bar-item w3-button" activeclass="active" href="/tests/test_1">Test 1</a.site>
+	<a.site class="w3-bar-item w3-button" activeclass="active" href="/tests/test_2">Test 2</a.site>
+	<a.site class="w3-bar-item w3-button" activeclass="active" href="/tests/test_3">Test 3</a.site>
+	<a.site class="w3-bar-item w3-button" activeclass="active" href="/tests/test_4">Test 4</a.site>
+	<a.site class="w3-bar-item w3-button" activeclass="active" href="/tests/test_5">Test 5</a.site>
+	<div class=extra><play id="nav-extra"/></div>
+</div>
+</div>

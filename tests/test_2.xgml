@@ -1,0 +1,12 @@
+<sailing><redirect location="/"/></sailing><module path="../egg-sgml/4/tgc_test_a.php"><include path="header_footer.include"/><record id=title>Test 2</record><record id="content">
+<div class="w3-container w3-theme-l5">
+
+<module_list>
+</module_list>
+<url_list>
+<p><b>Urls</b></p>
+<item><p><a.url><url_value/></a.url></p></item>
+</url_list>
+
+</div>
+</record><play id="header_footer"/></module>
