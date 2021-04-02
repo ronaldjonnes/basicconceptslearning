@@ -1,24 +1,27 @@
-<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record><record id="meta">
-</record><record id="content">
+<record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record>
+<record id="meta">
+</record>
+<record id="content">
 
 <div class="container-fluid py-1">
-<div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
-<div class="row">
-	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/about-us-1-4.png" alt="About 1-4"/>
+	<div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
+	<div class="row">
+		<div class="col-lg-6 pt-1">
+			<img class="img-fluid" src="/resources/about-us-1-4.png" alt="About 1-4"/>
+		</div>
+		<div class="col-lg-6 pt-1">
+			<img class="img-fluid" src="/resources/about-us-a.png" alt="About A"/>
+		</div>
 	</div>
-	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/about-us-a.png" alt="About A"/>
+	<div class="row">
+		<div class="col-lg-6 pt-1">
+			<img class="img-fluid" src="/resources/about-us-b.png" alt="About B"/>
+		</div>
+		<div class="col-lg-6 pt-1">
+			<img class="img-fluid" src="/resources/about-us-c.png" alt="About C"/>
+		</div>
 	</div>
-</div>
-<div class="row">
-	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/about-us-b.png" alt="About B"/>
-	</div>
-	<div class="col-lg-6 pt-1">
-	<img class="img-fluid" src="/resources/about-us-c.png" alt="About C"/>
-	</div>
-</div>
 </div>
 
-</record><include path="header_footer.include"/>
+</record>
+<include path="header_footer.include"/>

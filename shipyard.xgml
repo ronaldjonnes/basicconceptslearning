@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link rel="stylesheet" href="bootstrap-5.0.0-beta2/bootstrap.min.css"/>
-</head>
-<body>
-<div class="container-fluid">
-<div class="row py-3">
-
-<shipyard_login_failed>
-Please check password and try again.</shipyard_login_failed>
-<form>
-	<div class="mb-3">
-	<label  class="form-label">Type in the Password</label>
-	<div class="col-4"> <input type="text" class="form-control" name="shipyard"/></div>
-	</div>
-	<button type="submit" class="btn btn-primary">Submit</button>
-</form>
-</div>
-</div>
-</body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="bootstrap-5.0.0-beta3/bootstrap.min.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row py-3">
+				<shipyard_login_failed>Please check password and try again.</shipyard_login_failed>
+				<form>
+					<div class="mb-3">
+						<label  class="form-label">Type in the Password</label>
+						<div class="col-4"> <input type="text" class="form-control" name="shipyard"/></div>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
 </html>
