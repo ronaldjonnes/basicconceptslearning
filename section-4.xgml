@@ -37,20 +37,5 @@
 	</div>
 </div>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content" style="background-color:#fdf5e6d9">
-      <div class="modal-header">
-        <img src="/resources/spiked.jpg" width="45" alt="Spiked Balls"><span  class="m-1">BCMLP</span>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="lead" style="font-size:22px; text-align: center"><strong>This Section is still under development.<br/>Section 8 is active.</strong></p>
-      </div>
-    </div>
-  </div>
-</div>
-
 </record>
 <include path="header_footer.include"/>
