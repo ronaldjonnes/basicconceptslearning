@@ -26,7 +26,7 @@
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
-							<p class="lead" style="font-size:22px; text-align: center"><strong>This Section is still under development.<br/>Sections 3, 4, & 8 are active.</strong></p>
+							<p class="lead" style="font-size:22px; text-align: center"><strong>This Section is still under development.</strong></p>
 						</div>
 					</div>
 				</div>

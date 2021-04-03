@@ -15,25 +15,25 @@
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3-5.jpg" alt="similar"></div>
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3-6.jpg" alt="different"></div>
 	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>Tap/click on the boxes below to access Subsections A to K.</strong></h3></div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections A to K.</strong></h3></div>
 	<div class="row">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3a.jpg" alt="Introduction"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3b.jpg" alt="Sorting"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3c.jpg" alt="Rows"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3a.jpg" alt="Introduction"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3b.jpg" alt="Sorting"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3c.jpg" alt="Rows"></div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3d.jpg" alt="Sequencing"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3e.jpg" alt="Building a tower"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3f.jpg" alt="Building a flower"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3d.jpg" alt="Sequencing"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3e.jpg" alt="Building a tower"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3f.jpg" alt="Building a flower"></div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3g.jpg" alt="Building steps"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3h.jpg" alt="Colours"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3i.jpg" alt="Shapes"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3g.jpg" alt="Building steps"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3h.jpg" alt="Colours"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3i.jpg" alt="Shapes"></div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3j.jpg" alt="Numbers"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/3k.jpg" alt="Comparison"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3j.jpg" alt="Numbers"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/3k.jpg" alt="Comparison"></div>
 	</div>
 </div>
 
