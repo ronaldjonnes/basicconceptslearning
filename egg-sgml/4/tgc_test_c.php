@@ -33,6 +33,85 @@ class tgc_test_c__empty {
 	}
 };
 
+class tgc_test_c__image_b {
+	public $NF, $path, $env;
+	function __construct($path,$env,$v) {
+		$this->path = $path;
+		$this->env = $env;
+		$this->v = $v;
+	}
+	function start( $q ) {
+		return 0; }
+	function repeat( $q ) {
+		return 0; }
+	function consume_text( $q, $x ) {
+		$q->write(str_replace("<","&lt;", str_replace( "&", "&amp;", $x ) ) ); }
+	function consume( $q, $end, $w ) {
+		switch( $w->nodeName ) {
+		case 'src':
+			if( $end ) return 1;
+			$q->write( sr_amp_lt( $this->v->getAttribute('src') ) );
+			return 2;
+		case 'alt':
+			if( $end ) return 1;
+			$q->write( sr_amp_lt( $this->v->getAttribute('alt') ) );
+			return 2;
+		}
+		if( $end ) {
+			$q->write('</' . $w->nodeName . '>');
+			return 1; }
+		$q->write('<' . $w->nodeName );
+		write_attributes( $q, $w, [ ] );
+		$q->write('>');
+		return 2;
+	}
+};
+
+class tgc_test_c__image_c {
+	public $NF, $path, $env;
+	function __construct($path,$env) {
+		$this->path = $path;
+		$this->env = $env;
+	}
+	function start( $q ) {
+		return 0; }
+	function repeat( $q ) {
+		return 0; }
+	function consume_text( $q, $x ) { }
+	function consume( $q, $end, $w ) {
+		return 0; }
+};
+
+class tgc_test_c__image {
+	public $NF, $path, $env;
+	function __construct($path,$env,$v) {
+		$this->path = $path;
+		$this->env = $env;
+		$this->v = $v;
+	}
+	function start( $q ) {
+		return 0; }
+	function repeat( $q ) {
+		return 0; }
+	function consume_text( $q, $x ) { }
+	function consume( $q, $end, $w ) {
+		$m = null;
+		switch( $w->nodeName ) {
+		case 'img':
+			if( $end ) return 1;
+			$this->NF = newframe( new tgc_test_c__image_b($this->path,$this->env,$w), $q, $this->v );
+			return 3;
+		case 'include':
+			if ($end) return 1;
+			$m = load_eggsgml_file( $_SERVER['DOCUMENT_ROOT'] . '/' . $w->getAttribute('path') );
+			$this->NF = newframe(new tgc_test_c__image_c($this->path,$this->env),$q,$m);
+			return 3;
+		}
+		if( $end ) return 1;
+		return 2;
+	}
+};
+
 class tgc_test_c__a {
 	public $NF, $path, $env;
 	public $clipname;
@@ -95,6 +174,11 @@ class tgc_test_c__page {
 			if( $end ) return 1;
 			$d = load_eggsgml_file( $_SERVER['DOCUMENT_ROOT'] . '/' . $this->a );
 			$this->NF = newframe($this->c, $q, $d);
+			return 3;
+		case 'image':
+			if( $end ) return 1;
+			$d = load_eggsgml_file( $_SERVER['DOCUMENT_ROOT'] . '/' . $this->a );
+			$this->NF = newframe( new tgc_test_c__image($this->path,$this->env,$w), $q, $d );
 			return 3;
 		case 'cache_control_value':
 			if( $end ) return 1;

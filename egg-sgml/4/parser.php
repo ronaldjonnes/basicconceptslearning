@@ -116,7 +116,12 @@ class W3CDOM_tagreceiver {
 		foreach( $this->attrs as $j => $d ) {
 			$x->setAttribute( $j, $d ); }
 		if( ! $self_closing ) {
-			$this->c = $x; }
+			$this->c = $x;
+			if( $this->tag == 'script' || $this->tag == 'style' ) {
+				return 1;
+			}
+		}
+		return 0;
 	}
 	function text( $j ) {
 		$this->c->appendChild( $this->w->createTextNode( $j ) );
@@ -158,9 +163,11 @@ class W3CDOM_tagreceiver {
 }	
 
 class eggsgml_parser {
+	public $interimjsupgrade;
 	function __construct($T) {
 		$this->sR = ''; $this->s1 = $this->s2 = $this->s3 = $this->s4 = '';
 		$this->w = 1000;
+		$this->cdatatag = '';
 		$this->T = $T;
 	}
 	function sp_tab_nl( $c ) {
@@ -434,8 +441,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->new_tag_formation( $this->s1 );
-					$this->T->complete_tag(0);
-					$this->w = 0;
+					if( $this->T->complete_tag(0) && $this->interimjsupgrade) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else if( $m[$c] == '/' ) {
 					$c += 1;
 					$this->T->new_tag_formation( $this->s1 );
@@ -488,8 +497,10 @@ class eggsgml_parser {
 					$this->w = 13;
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
-					$this->T->complete_tag(0);
-					$this->w = 0;
+					if( $this->T->complete_tag(0) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else if( $m[$c] == '/' ) {
 					$this->sR .= $m[$c];
 					$c += 1;
@@ -518,8 +529,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, '' );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else if( $m[$c] == '/' ) {
 					$this->sR .= $m[$c];
 					$c += 1;
@@ -561,8 +574,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, '' );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else if( $m[$c] == '/' ) {
 					$this->sR .= $m[$c];
 					$c += 1;
@@ -607,8 +622,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, '' );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 = $m[$c];
@@ -638,8 +655,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, $this->s3 );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 .= $m[$c];
@@ -678,8 +697,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, $this->s3 . '&' );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 .= '&' . $m[$c];
@@ -721,8 +742,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, $this->s3 . '&' . $this->s4 );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 .= '&' . $this->s4 . $m[$c];
@@ -759,8 +782,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, $this->s3 . '&#' );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 .= '&#' . $m[$c];
@@ -801,8 +826,10 @@ class eggsgml_parser {
 				} else if( $m[$c] == '>' ) {
 					$c += 1;
 					$this->T->tagattr( $this->s2, $this->s3 . '&#' . $this->s4 );
-					$this->T->complete_tag( 0 );
-					$this->w = 0;
+					if( $this->T->complete_tag( 0 ) && $this->interimjsupgrade ) {
+						$this->cdatatag = $this->s1;
+						$this->w = 50;
+					} else $this->w = 0;
 				} else {
 					$this->sR .= $m[$c];
 					$this->s3 .= '&#' . $this->s4 . $m[$c];
@@ -1128,6 +1155,52 @@ class eggsgml_parser {
 					$this->w = 42;
 				}
 				break;
+			case 50:
+				$a = strpos( $m, '<', $c );
+				if( ! ( $a === false ) ) {
+					if( $a > $c ) $this->T->text( substr( $m, $c, $a - $c ) );
+					$c = $a + 1;
+					$this->w = 51;
+					break; }
+				$this->T->text( substr( $m, $c ) );
+				return 1;
+			case 51:
+				if( $m[$c] == '/' ) {
+					$c += 1;
+					$this->sR = '';
+					$this->w = 52;
+				} else {
+					$this->T->text( '<' . $m[$c] );
+					$c += 1;
+					$this->w = 50;
+				}
+				break;
+			case 52:
+				if( $m[$c] == $this->cdatatag[strlen($this->sR)] ) {
+					$this->sR .= $m[$c];
+					$c += 1;
+					if( strlen($this->sR) == strlen($this->cdatatag) ) {
+						$this->w = 53;
+					}
+				} else {
+					$this->T->text( '</' . $this->sR . $m[$c] );
+					$c += 1;
+					$this->w = 50;
+				}
+				break;
+			case 53:
+				if( $this->sp_tab_nl( $m[$c] ) ) {
+					$this->sR .= $m[$c];
+					$c += 1;
+				} else if( $m[$c] == '>' ) {
+					$this->T->closing_tag( $this->cdatatag );
+					$c += 1;
+					$this->w = 0;
+				} else {
+					$this->T->text( '</' . $this->sR . $m[$c] );
+					$c += 1;
+					$this->w = 50;
+				}
 			}
 		}
 	}
@@ -1195,6 +1268,15 @@ class eggsgml_parser {
 			case 42: // <!--
 			case 43: // <!--- <!--.-
 				$this->T->text( '<!' . $this->s1 . '--' . $this->s2 );
+				break;
+			case 50:
+				break;
+			case 51:
+				$this->T->text( '<' );
+				break;
+			case 52:
+			case 53:
+				$this->T->text( '</' . $this->sR );
 				break;
 			}
 	}

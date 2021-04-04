@@ -16,11 +16,9 @@
 #    License along with this library; if not, write to the Free Software
 #    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 
-function load_eggsgml_file( $doc ) {
-	$k = $n = $u = $m = 00;
-	
-	$m = new W3CDOM_tagreceiver();
-	$u = new eggsgml_parser($m);
+function load_eggsgml_file_2( $m, $u, $doc ) {
+	$k = null;
+
 	$k = fopen($doc,'r');
 	while(1) {
 		$n = fread( $k, 77 );
@@ -28,6 +26,25 @@ function load_eggsgml_file( $doc ) {
 		$u->process_chunk( $n );
 	}
 	$u->process_eof();
+}
+
+function load_eggsgml_file( $doc ) {
+	$k = $n = $u = $m = 00;
+	
+	$m = new W3CDOM_tagreceiver();
+	$u = new eggsgml_parser($m);
+	load_eggsgml_file_2( $m, $u, $doc );
+	return $m->w;
+}
+
+function load_eggsgml_file_env( $env, $doc ) {
+	$u = null;
+
+	$m = new W3CDOM_tagreceiver();
+	$u = new eggsgml_parser($m);
+	if( $env->interimjsupgrade ) {
+		$u->interimjsupgrade = true; }
+	load_eggsgml_file_2( $m, $u, $doc );
 	return $m->w;
 }
 

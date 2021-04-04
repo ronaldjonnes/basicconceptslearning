@@ -27,6 +27,7 @@ class environ {
 	public $sct; public $scriptnow;
 	public $file_ext; public $templatefile;
 	public $api, $nodoctype;
+	public $interimjsupgrade;
 	function __construct() {
 		$this->sct = [ 'br' => 1, 'hr' => 1, 'img' => 1, 'meta' => 1, 'link' => 1, 'input' => 1 ];
 		$this->scriptnow = time();
@@ -50,7 +51,7 @@ function main_f($env,$extension,$extoptional,$doc,$self_href) {
 			return; }			
 		$env->templatefile = $doc;
 	} while(0);
-	$d = load_eggsgml_file( $env->templatefile );
+	$d = load_eggsgml_file_env( $env, $env->templatefile );
 	$m = eggsgml_descendent( $d, 'cache_control' );
 	if( $m ) if( attribute_exists($m,'static') ) {
 m:		$c = apache_request_headers();
@@ -113,6 +114,7 @@ class tgc_templates {
 			$env->nodoctype = attribute_exists( $w, 'no-doctype' );
 			$env->api = basename(dirname($_SERVER['PHP_SELF']));
 			$env->shipyard = file_exists( $path . '/shipyard.txt' );
+			$env->interimjsupgrade = attribute_exists( $w, 'interim-js-cdata' );
 			if( $env->shipyard ) {
 				$env->shipyard_auth = file_get_contents($path . '/shipyard.txt'); }
 			while( attribute_exists( $w, "redirect-to-ssl" ) ) {

@@ -26,6 +26,7 @@ tgc_generic
 tgc_templates
 	main
 		sts-expire, redirect-to-ssl, rootdoc, extension, extension-optional, no-doctype
+		interim-js-cdata
 
 Other Classes
 
@@ -55,3 +56,5 @@ attribute_exists
 check_shipyard_auth
 main
 load_eggsgml_file
+load_eggsgml_file_2
+load_eggsgml_file_env

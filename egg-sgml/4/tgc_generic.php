@@ -173,7 +173,7 @@ class tgc_generic {
 		if( $w->nodeName == 'include' ) {
 			if ($end) return 1;
 			$a = $this->path . "/" . $w->getAttribute('path');
-			$m = load_eggsgml_file( $a );
+			$m = load_eggsgml_file_env( $this->env, $a );
 			if( dirname($a,1) != $this->path ) {
 				$this->NF = newframe( new tgc_generic(dirname($a,1),$this->env), $q, $m );
 			} else {
@@ -182,7 +182,7 @@ class tgc_generic {
 			return 3; }
 		if( $w->nodeName == 'showsource' ) {
 			if ($end) return 1;
-			$m = load_eggsgml_file( $this->path . "/" . $w->getAttribute('path') );
+			$m = load_eggsgml_file_env( $this->env, $this->path . "/" . $w->getAttribute('path') );
 			$this->NF = newframe(new tgc_sgml_source($w->getAttribute('highlight')),$q,$m);
 			return 3; }
 		if( $w->nodeName == 'showphp' ) {

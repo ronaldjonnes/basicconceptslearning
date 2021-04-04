@@ -1,5 +1,5 @@
 <?php
 
-function eggsgml_version() { return "1.24"; }
+function eggsgml_version() { return "1.25"; }
 
 ?>
