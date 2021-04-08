@@ -1,6 +1,5 @@
 <record id="title">BCMLP - Basic Concepts Mathematics Language Programme</record>
-<record id="meta">
-</record>
+<record id="meta"></record>
 <record id="content">
 
 <div class="container-fluid py-1">
@@ -17,7 +16,7 @@
 				<h3 style="text-align: center;"><strong> BASIC CONCEPTS </strong></h3>
 			</div>
 			<div class="mb-1 border border-dark border border-3" style="background:oldlace; text-align: center;">
-				<h4><b><u> The BCMLP </u></b></h4>
+				<h4><strong><u> The BCMLP </u></strong></h4>
 				<h4>The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
 			</div>
 			<img class="img-fluid" src="/resources/home-colour-grid.png" alt="Colour grid"/>

@@ -7,8 +7,23 @@
 		<link rel="icon" href="/resources/spiked.jpg"/>
 		<title><play id="title"/></title>
 		<style>
-			.nav-item a.active { font-weight: 400; }
-			#myBtn {display: none;position: fixed;bottom: 50px;right: 30px;}#myBtn:hover {background-color: #55555540;}
+			/* .nav-item a.active {font-weight: 800;} */
+			#myBtn {
+				display: none;
+				height: 30px;
+				width: 30px;
+				right: 1px;
+				top: 80px;
+				position: fixed;
+				font-size: 12px;
+				color: #ff00ff65;
+				border-style: solid;
+				border-width: 3px;
+				border-color: #ff00ff65;
+				border-radius: 6px;
+				background: transparent;
+			}
+			.c1#myBtn {background-color: black; color: white}
 		</style>
 		<play id="meta"/>
 	</head>
@@ -16,7 +31,7 @@
 		<script src="bootstrap-5.0.0-beta3/bootstrap.bundle.min.js"/>
 		<include path="nav.include"/>
 		<main>
-			<button class="btn btn-outline-dark" id="myBtn" onclick="topFunction()"><i class="fas fa-chevron-up fa-lg"></i></button>
+			<button class="c0" id="myBtn" onclick="topFunction()"><i class="fas fa-chevron-up"></i></button>
 			<play id="content"/>
 			<!-- Modal -->
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -33,18 +48,23 @@
 				</div>
 			</div>
 			<script language="javascript">
-				<!-- Get the button -->
+				// Get the button
 				var mybutton = document.getElementById("myBtn");
-				<!-- When the user scrolls down 20px from the top of the document, show the button -->
+				// When the user scrolls down 300px from the top of the document, show the button
 				window.onscroll = function() {scrollFunction()};
 				function scrollFunction() {
-					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
 						mybutton.style.display = "block";
+						function togglescroll(m) {
+							mybutton.className = mybutton.className.substring(0,mybutton.className.length-1) + (m%2);
+							if(m) window.setTimeout( function(){togglescroll(m-1)}, 1000 );
+						}
+							togglescroll(1);
 					} else {
 						mybutton.style.display = "none";
 					}
 				}
-				<!-- When the user clicks on the button, scroll to the top of the document -->
+				// When the user clicks on the button, scroll to the top of the document
 				function topFunction() {
 					document.body.scrollTop = 0;
 					document.documentElement.scrollTop = 0;
