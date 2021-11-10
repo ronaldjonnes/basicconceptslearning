@@ -1,0 +1,59 @@
+<record id="title">BCMLP - Section 3</record>
+<record id="meta">
+<style>
+div.attribution {
+	margin-left: 1em; font-size: .6em;
+}
+</style>
+</record>
+<record id="content">
+
+<div class="container-fluid py-1">
+	<div class="row">
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-1.jpg" alt="The Basic Concepts Journey">
+			<div class="attribution"><strong><a href="https://tinyurl.com/s54pdfdm" target="_blank" rel="noopener noreferrer">image</a> by FMSC, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY</strong></div>
+			<div class="attribution"><strong><a href="https://tinyurl.com/ud9p8v23" target="_blank" rel="noopener noreferrer">African Pattern Vectors by Vecteezy</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-2.svg" alt="Map of Africa"></div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-3.jpg" alt="The Journey text">
+			<div class="attribution"><strong><a href="https://tinyurl.com/ud9p8v23" target="_blank" rel="noopener noreferrer">African Pattern Vectors by Vecteezy</div>
+		</div>
+	</div>
+	<div class="row pt-1">
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-4.jpg" alt="Child walking to school">
+			<div class="attribution"><strong>Image courtesy Equal Education</div>
+		</div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-5.jpg" alt="Classroom in Niger"></div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-6.jpg" alt="Teaching under a tree">
+			<div class="attribution"><strong><a href="https://tinyurl.com/xrcu995c" target="_blank" rel="noopener noreferrer">image</a> by Karel Prinsloo/Efe/Unesco, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY</strong></div>			
+		</div>
+	</div>
+	<div class="row pt-1">
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-7.jpg" alt="Children learning in a tent"></div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-8.jpg" alt="Children learning in a building">
+			<div class="attribution"><strong>Image courtesy Eva-Lotta Jansson</div>
+		</div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-9.jpg" alt="Children learning computers">
+			<div class="attribution"><strong>Image courtsey OLPC</div>		
+		</div>
+	</div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections A to G.</strong></h3></div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1a.jpg" alt="Applied Research"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1b.jpg" alt="APR documents"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1c.jpg" alt="EFA & MD Goals"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1d.jpg" alt="SDG4 Education"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1e.jpg" alt="UIL Policy Briefs"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1f.jpg" alt="UNESCO Education Strategy 2014-2021"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1g.jpg" alt="Priority Africa"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1h.jpg" alt="Colours"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1i.jpg" alt="Shapes"></div>
+	</div>
+</div>
+
+</record>
+<include path="header_footer.include"/>

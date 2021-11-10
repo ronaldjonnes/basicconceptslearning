@@ -1,23 +1,23 @@
-<record id="title">BCMLP - About Us</record>
+<record id="title">BCMLP - Outline</record>
 <record id="meta"></record>
 <record id="content">
 
 <div class="container-fluid py-1">
 	<div class="p-1 bg-primary text-white" style="text-align: center;"><strong>The Outline of the Basic Concept Mathematics Language Programme</strong></div>
-	<div class="row">
+	<div class="row gx-2">
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/about-us-1-4.png" alt="About 1-4"/>
+			<img class="img-fluid" src="/resources/outline-1-4.svg" alt="About 1-4"/>
 		</div>
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/about-us-a.png" alt="About A"/>
+			<img class="img-fluid" src="/resources/outline-a.svg" alt="About A"/>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row gx-2">
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/about-us-b.png" alt="About B"/>
+			<img class="img-fluid" src="/resources/outline-b.svg" alt="About B"/>
 		</div>
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/about-us-c.png" alt="About C"/>
+			<img class="img-fluid" src="/resources/outline-c.svg" alt="About C"/>
 		</div>
 	</div>
 </div>

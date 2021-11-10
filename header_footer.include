@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="bootstrap-5.0.0-beta3/bootstrap.min.css"/>
+		<link rel="stylesheet" href="bootstrap-5.0.1/bootstrap.min.css"/>
 		<link rel="stylesheet" href="fontawesome/css/all.min.css">
 		<link rel="icon" href="/resources/spiked.jpg"/>
 		<title><play id="title"/></title>
@@ -28,7 +28,7 @@
 		<play id="meta"/>
 	</head>
 	<body>
-		<script src="bootstrap-5.0.0-beta3/bootstrap.bundle.min.js"/>
+		<script src="bootstrap-5.0.1/bootstrap.bundle.min.js"/>
 		<include path="nav.include"/>
 		<main>
 			<button class="c0" id="myBtn" onclick="topFunction()"><i class="fas fa-chevron-up"></i></button>
