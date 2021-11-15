@@ -50,8 +50,8 @@ div.attribution {
 	</div>
 	<div class="row">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1g.jpg" alt="Priority Africa"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1h.jpg" alt="Colours"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1i.jpg" alt="Shapes"></div>
+		<!-- <div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1h.jpg" alt="Colours"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1i.jpg" alt="Shapes"></div> -->
 	</div>
 </div>
 
