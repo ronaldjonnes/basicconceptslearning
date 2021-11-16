@@ -1,1 +1,1 @@
-<main redirect-to-ssl sts-expire=333300 rootdoc=index/>
+<main redirect-to-ssl sts-expire=333300 rootdoc=index shipyard-doc=/shipyard/>

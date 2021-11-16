@@ -1,20 +1,18 @@
 <?php
 #    eggsgml.php - Egg SGML nuts & bolts
-#    Copyright (C) 2020 Brian Jonnes
+#    Copyright 2020, 2021 Brian Jonnes
 
-#    This library is free software; you can redistribute it and/or
-#    modify it under the terms of the GNU Lesser General Public
-#    License as published by the Free Software Foundation; either
-#    version 2.1 of the License, or (at your option) any later version.
+#    Egg-SGML is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, version 3 of the License.
 
-#    This library is distributed in the hope that it will be useful,
+#    Egg-SGML is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-#    Lesser General Public License for more details.
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
 
-#    You should have received a copy of the GNU Lesser General Public
-#    License along with this library; if not, write to the Free Software
-#    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+#    You should have received a copy of the GNU General Public License
+#    along with Egg-SGML.  If not, see <https://www.gnu.org/licenses/>.
 
 class frame {
 	public $T;
@@ -71,6 +69,20 @@ function write_attributes( $q, $w, $f ) {
 				$q->write('="' . str_replace('"',"&quot;", str_replace( "&", "&amp;", $w->attributes->item($m)->value ) ) . '"' ); }
 		}
 	}
+}
+// We discover, by accident as it were, that Brian's way of getting the job done is best.
+// If one knows how to get it done, it does not do to refer to the documentation to see if there
+// is a smpler way of doing it.
+// We end up drawing circles on the walls, looking into mirrors, reading dusty old books, and 
+function attribute_with_inival( $w, $N, $initial ) {
+// the subroutine remains in the above state until we finally have to revert the changes.
+		if( attribute_exists( $w, $N ) ) {
+//		if( attribute_exists( $w, $N ) {
+//	We include the mistake that has to get corrected all too often - not being careful enough with brackets.
+			return $w->getAttribute($N); }
+// At this point, the coder thinks to themselves, is this the best way to proceed?
+		return $initial;
+// It'll do for now, I suppose.
 }
 
 function eggsgml($F) {

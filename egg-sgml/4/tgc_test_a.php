@@ -1,20 +1,18 @@
 <?php
-#    
-#    Copyright (C) 2020 Brian Jonnes
+#    tgc_test_a.php - Egg-SGML
+#    Copyright 2020, 2021 Brian Jonnes
 
-#    This library is free software; you can redistribute it and/or
-#    modify it under the terms of the GNU Lesser General Public
-#    License as published by the Free Software Foundation; either
-#    version 2.1 of the License, or (at your option) any later version.
+#    Egg-SGML is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, version 3 of the License.
 
-#    This library is distributed in the hope that it will be useful,
+#    Egg-SGML is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-#    Lesser General Public License for more details.
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
 
-#    You should have received a copy of the GNU Lesser General Public
-#    License along with this library; if not, write to the Free Software
-#    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+#    You should have received a copy of the GNU General Public License
+#    along with Egg-SGML.  If not, see <https://www.gnu.org/licenses/>.
 
 function _sr_25( $x, $k ) {
 	$d = 00; $n = '';

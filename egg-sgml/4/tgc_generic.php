@@ -1,20 +1,18 @@
 <?php
 #    tgc_generic.php - Egg SGML
-#    Copyright (C) 2020 Brian Jonnes
+#    Copyright 2020, 2021 Brian Jonnes
 
-#    This library is free software; you can redistribute it and/or
-#    modify it under the terms of the GNU Lesser General Public
-#    License as published by the Free Software Foundation; either
-#    version 2.1 of the License, or (at your option) any later version.
+#    Egg-SGML is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, version 3 of the License.
 
-#    This library is distributed in the hope that it will be useful,
+#    Egg-SGML is distributed in the hope that it will be useful,
 #    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-#    Lesser General Public License for more details.
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
 
-#    You should have received a copy of the GNU Lesser General Public
-#    License along with this library; if not, write to the Free Software
-#    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+#    You should have received a copy of the GNU General Public License
+#    along with Egg-SGML.  If not, see <https://www.gnu.org/licenses/>.
 
 class tgc_sgml_source {
 	public $NF;
@@ -90,6 +88,7 @@ function load_module_frame_api( $path, $env, $w, $q ) {
 	return newframe( $a, $q, $w );
 }
 
+/* This is dedicated to the C-Drive Internet Cafe. */
 class tgc_generic {
 	public $path, $env;
 	function __construct($path,$env) {
@@ -174,7 +173,7 @@ class tgc_generic {
 			if ($end) return 1;
 			$a = $this->path . "/" . $w->getAttribute('path');
 			$m = load_eggsgml_file_env( $this->env, $a );
-			if( dirname($a,1) != $this->path ) {
+			if( !attribute_exists($w,'interim-no-relative') && dirname($a,1) != $this->path ) {
 				$this->NF = newframe( new tgc_generic(dirname($a,1),$this->env), $q, $m );
 			} else {
 				$this->NF = newframe(new tgc,$q,$m);
