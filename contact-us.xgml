@@ -48,7 +48,7 @@
 					</span>
 					<span class="formtext">
 						<label for="comment">Enter your message *<error.exist name=message><span style="color: #ffff00"> required</span></error.exist></label>
-						<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Message" rows="4"/>
+						<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Message" minlength="10" maxlength="125" rows="4"/>
 						<i class="fas fa-pen fa-lg" id="fontawesome"></i>
 						<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
 					</span>
