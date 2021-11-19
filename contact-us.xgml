@@ -17,6 +17,9 @@
 </mail>
 <record id="title">BCMLP - Contact Us</record>
 <record id="meta">
+<head>
+  <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+</head>
 <style>
 .form-control {padding: 0.375rem 1.7rem;}
 .bg-img {background-image: url("resources/background.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
@@ -50,6 +53,7 @@
 						<label for="comment">* Enter your message (between 10 and 125 characters)<error.exist name=message><span style="color: #ffff00"> required</span></error.exist></label>
 						<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Message" minlength="10" maxlength="125" rows="4"/>
 						<i class="fas fa-pen fa-lg" id="fontawesome"></i>
+						<div class="g-recaptcha" data-sitekey="6Lff2UQdAAAAAEQTlRKYUorPoamsmCWxKG21iu9l"></div>
 						<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
 					</span>
 				</div>
