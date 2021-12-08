@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - rsync -avu --exclude-from=.rsynclist --delete /home/basiccon/scratch.basicconceptslearning.org/ /home2/basiccon/public_html/
+    - rsync -avu --exclude-from=.rsynclist --delete /home/basiccon/scratch.basicconceptslearning.org/ /home/basiccon/public_html/
