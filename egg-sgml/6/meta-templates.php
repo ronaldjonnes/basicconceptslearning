@@ -6,8 +6,8 @@
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation, version 3 of the License.
 
-#    Egg-SGML is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    Egg-SGML is distributed
+#    WITHOUT ANY WARRANTY; without even the implied warranty of
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 #    GNU General Public License for more details.
 
@@ -17,12 +17,14 @@
 class environ {
 	public $self_href, $shipyard;
 	public $sct; public $scriptnow;
-	public $file_ext; public $templatefile;
+	public $file_ext; public $templatefile; public $urlpath;
 	public $api, $nodoctype;
 	public $interimjsupgrade;
+	public $secrets_path;
 	function __construct() {
-		$this->sct = [ 'br' => 1, 'hr' => 1, 'img' => 1, 'meta' => 1, 'link' => 1, 'input' => 1 ];
+		$this->sct = [ 'br' => 1, 'hr' => 1, 'img' => 1, 'meta' => 1, 'link' => 1, 'input' => 1, 'base' => 1 ];
 		$this->scriptnow = time();
+		$this->clips = [ ];
 	}
 	function write_end_of_tag( $q, $tag ) {
 		if( array_key_exists( strtolower($tag), $this->sct ) ) {
@@ -33,7 +35,17 @@ class environ {
 	}
 	function write_close_tag( $q, $tag ) {
 		if( ! array_key_exists( strtolower($tag), $this->sct ) ) {
-			$q->write('</' . $w->tag . '>'); }
+			$q->write('</' . $tag . '>'); }
+	}
+	function dirpath2web( $P, $H ) {
+		$a = $_SERVER['DOCUMENT_ROOT'];
+		if( $H == '' ) {
+		} else if( $H[0] == '/' ) return $H;
+		if( $P == $a ) return '/' . $H;
+		if( substr($P,0,strlen($a)+1) != $a . '/' ) return $P;
+		$a = substr($P,strlen($a));
+		if( $H != '' ) if( $a[strlen($a)-1] != '/' ) $a .= '/' . $H;
+		return $a;
 	}
 	function _untested__write_prefixed_attributes( $q, $w, $f ) {
 		$m = 00;
@@ -50,7 +62,7 @@ class environ {
 	}
 };
 
-function main_f($env,$extension,$extoptional,$doc,$self_href) {
+function main_f($env,$extension,$altextension,$extoptional,$doc,$self_href) {
 	$c = $d = $m = null; $b = 0;
 	$env->self_href = $self_href;
 	do {
@@ -58,13 +70,19 @@ function main_f($env,$extension,$extoptional,$doc,$self_href) {
 			if( file_exists( $doc . $extension ) ) {
 				$env->templatefile = $doc . $extension;
 				break; }
+			if( $altextension != '' ) {
+				if( file_exists( $doc . $altextension ) ) {
+					$env->templatefile = $doc . $altextension;
+					break; } }
 			if( ! $extoptional ) {
+F:				if( $env->fallback != '' ) {
+					$env->templatefile = $_SERVER['DOCUMENT_ROOT'] . $env->fallback . $extension; 
+					break; }
 				http_response_code(404);
 				return; }
 		}
 		if( ! file_exists( $doc ) ) {
-			http_response_code(404);
-			return; }			
+			goto F; }
 		$env->templatefile = $doc;
 	} while(0);
 	$d = load_eggsgml_file_env( $env, $env->templatefile );
@@ -100,9 +118,9 @@ function attribute_exists( $w, $n ) {
 	return false;
 }
 
-function check_shipyard_auth($u) {
-	if( ! file_exists($u . "/shipyard.txt") ) return true;
-	$m = file_get_contents($u . '/shipyard.txt');
+function check_shipyard_auth($env,$u) {
+	if( ! $env->shipyard ) return true;
+	$m = $env->shipyard_auth;
 	if( $m === false ) return true;
 	if( array_key_exists( 'shipyard', $_COOKIE ) ) {
 		if( $_COOKIE['shipyard'] === $m ) {
@@ -115,6 +133,11 @@ function check_shipyard_auth($u) {
 
 class tgc_templates {
 	public $NF;
+	function self_protocol($w) {
+		if( attribute_exists( $w, "redirect-to-ssl" ) || array_key_exists('HTTPS',$_SERVER) ) {
+			return 'https'; }
+		return 'http';
+	}
 	function start( $q ) {
 		return 0; }
 	function repeat( $q ) {
@@ -127,12 +150,19 @@ class tgc_templates {
 			if( $end ) return 1;
 			$path = $_SERVER['DOCUMENT_ROOT'];
 			$env = new environ;
-			$env->nodoctype = attribute_exists( $w, 'no-doctype' );
+			$env->secrets_path = $w->getAttribute('secrets-path');
+			$env->urlpath = $_GET['t'];
+			$env->nodoctype = true;
 			$env->api = basename(dirname($_SERVER['PHP_SELF']));
-			$env->shipyard = file_exists( $path . '/shipyard.txt' );
-			$env->interimjsupgrade = attribute_exists( $w, 'interim-js-cdata' );
-			if( $env->shipyard ) {
-				$env->shipyard_auth = file_get_contents($path . '/shipyard.txt'); }
+			$env->interimjsupgrade = true;
+			if( file_exists( $path . '/shipyard.txt' ) ) {
+				if( attribute_exists( $w, 'shipyard-auth' ) ) {
+					$env->shipyard_auth = $w->getAttribute('shipyard-auth');
+				} else {
+					$env->shipyard_auth = file_get_contents($path . '/shipyard.txt');
+				}
+				$env->shipyard = true; }
+			$env->fallback = $w->getAttribute('fallback');
 			while( attribute_exists( $w, "redirect-to-ssl" ) ) {
 				if( array_key_exists('HTTPS',$_SERVER) )
 					if( $_SERVER['HTTPS'] == 'on' ) break;
@@ -140,21 +170,21 @@ class tgc_templates {
 				return 1; 
 			}
 			$env->file_ext = $w->getAttribute('extension');
-			if( ! check_shipyard_auth($path) ) {
-				$this->NF = main_f( $env, $w->getAttribute('extension'), attribute_exists($w,'extension-optional'), $path . attribute_with_inival( $w, 'shipyard-doc', '/shipyard'), '/shipyard');
-				if( ! $this->NF ) return 0;
+			if( ! check_shipyard_auth($env,$path) ) {
+				$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . attribute_with_inival( $w, 'shipyard-doc', '/shipyard'), '/shipyard');
+				if( ! $this->NF ) return 1;
 				return 3; }
 			if( $_GET['t'] == '/' ) {
-				$this->NF = main_f( $env, $w->getAttribute('extension'), attribute_exists($w,'extension-optional'), $path . '/' . $w->getAttribute('rootdoc'), $_GET['t'] );
-				if( ! $this->NF ) return 0;
+				$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . '/' . $w->getAttribute('rootdoc'), $_GET['t'] );
+				if( ! $this->NF ) return 1;
 				return 3;
 			}
 			if( $_GET['t'] == '/' . $w->getAttribute('rootdoc') ) {
-				header('Location:https://' . $_SERVER['HTTP_HOST'] . '/' );
+				header('Location:' . $this->self_protocol($w) . '://' . $_SERVER['HTTP_HOST'] . '/' );
 				return 1;
 			}
-			$this->NF = main_f( $env, $w->getAttribute('extension'), attribute_exists($w,'extension-optional'), $path . strtolower(str_replace('.','',$_GET['t'])), strtolower($_GET['t']) );
-			if( ! $this->NF ) return 0;
+			$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . strtolower(str_replace('.','',$_GET['t'])), strtolower($_GET['t']) );
+			if( ! $this->NF ) return 1;
 			return 3;
 		}
 		return 0;

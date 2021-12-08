@@ -1,4 +1,7 @@
-<module path="mail.php">
+<module api path="mailrecaptcha.php">
+<response-test>
+<proven>
+<grecaptcha>
 <mail pg_connection_file="" to="brian@jonnes.co.za, ronald@jonnes.co.za" from="webform@basicconceptslearning.org" subject="BCMLP: New message">
 
 <html>
@@ -15,16 +18,17 @@
 </html>
 
 </mail>
+</grecaptcha>
+</proven>
+</response-test>
 <record id="title">BCMLP - Contact Us</record>
 <record id="meta">
-<head>
-  <script src='https://www.google.com/recaptcha/api.js' async defer></script>
-</head>
+<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 <style>
 .form-control {padding: 0.375rem 1.7rem;}
 .bg-img {background-image: url("resources/background.jpg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
 .formname, .formmail, .formtext {position: relative;}
-#fontawesome{position: absolute; left: .8em; top: 1.6em; color: gray;}
+#fontawesome{position: absolute; left: .2em; top: 1.6em; color: gray;}
 .formclass  input:hover, .formclass  textarea:hover, .formclass  input:focus, .formclass  textarea:focus {background-color:#fef7e0;}
 </style>
 </record>
@@ -32,31 +36,25 @@
 
 <div class="container-fluid py-5 bg-img">
 	<div class="row justify-content-center" style="color: #e6e6e6">
-		<div class="col-lg-5 p-4 rounded" style="background-color:#00000040">
+		<div class="col-lg-5 p-4 rounded" style="background-color:#00000080">
 			<h1>Get in touch with us</h1>
-			<p><strong>* These fields are required.</strong></p>
-			<ok.mail><p style="color: #00cc00">Your message has been sent</p></ok.mail>
-			<error.mail><p style="color: #ffff00">Invalid submission.</p></error.mail>
 			<form class="formclass" method="post">
-				<div class="row">
-					<span class="formname">
-						<label for="name">* Enter your name<error.exist name=name><span style="color: #ffff00">required</span></error.exist></label>
-						<input.mail type="text" name="name" class="form-control mb-2" id="name" placeholder="Name"/>
-						<i class="fas fa-user fa-lg" id="fontawesome"></i>
-					</span>
-					<span class="formmail">
-						<label for="email">* Enter your email address<error.exist name=email><span style="color: #ffff00"> required</span></error.exist><error.format name=email> enter a valid email address</error.format></label>
-						<input.mail type="email" name="email" class="form-control mb-2" id="email" placeholder="Email"/>
-						<i class="fas fa-envelope fa-lg" id="fontawesome"></i>
-					</span>
-					<span class="formtext">
-						<label for="comment">* Enter your message (between 10 and 125 characters)<error.exist name=message><span style="color: #ffff00"> required</span></error.exist></label>
-						<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Message" minlength="10" maxlength="125" rows="4"/>
-						<i class="fas fa-pen fa-lg" id="fontawesome"></i>
-						<div class="g-recaptcha" data-sitekey="6Lff2UQdAAAAAEQTlRKYUorPoamsmCWxKG21iu9l"></div>
-						<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
-					</span>
+				<div class="formname">Name <error.exist name=name><span style="color: #F7B500">is required</span></error.exist>
+					<input.mail type="text" name="name" class="form-control mb-2" id="name" placeholder="Enter your name"/>
+					<i class="fas fa-user fa-lg" id="fontawesome"></i>
 				</div>
+				<div class="formmail">Email <error.exist name=email><span style="color: #F7B500">is required</span></error.exist><error.format name=email> enter a valid email address</error.format>
+					<input.mail type="email" name="email" class="form-control mb-2" id="email" placeholder="Enter your email address"/>
+					<i class="fas fa-envelope fa-lg" id="fontawesome"></i>
+				</div>
+				<div class="formtext">Message <error.exist name=message><span style="color: #F7B500">is required</span></error.exist>
+					<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Enter your message (between 10 and 300 characters)" minlength="10" maxlength="300" rows="4"/>
+					<i class="fas fa-pen fa-lg" id="fontawesome"></i>
+					<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+					<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
+				</div>
+				<ok.mail><div style="color: #00cc00">Your message was sent</div></ok.mail>
+				<error.mail><div style="color: #F7B500">Your message was not sent</div></error.mail>
 			</form>
 		</div>
 	</div>

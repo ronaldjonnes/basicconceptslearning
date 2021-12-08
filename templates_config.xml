@@ -1,1 +1,3 @@
-<main redirect-to-ssl sts-expire=333300 rootdoc=index extension=.xgml no-doctype/>
+<main redirect-to-ssl sts-expire=333300 rootdoc=index extension=.xgml no-doctype
+secrets-path=/home/basiccon/etc/secrets/
+/>
