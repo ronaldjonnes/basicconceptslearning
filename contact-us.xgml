@@ -50,7 +50,7 @@
 				<div class="formtext">Message <error.exist name=message><span style="color: #F7B500">is required</span></error.exist>
 					<textarea.mail name="message" class="form-control mb-2" id="comment" placeholder="Enter your message (between 10 and 300 characters)" minlength="10" maxlength="300" rows="4"/>
 					<i class="fas fa-pen fa-lg" id="fontawesome"></i>
-					<div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+					<div class="g-recaptcha" data-sitekey="6Lff2UQdAAAAAEQTlRKYUorPoamsmCWxKG21iu9l"></div>
 					<input type=hidden name=token value=1/><span><button class="btn btn-primary">Send message</button></span>
 				</div>
 				<ok.mail><div style="color: #00cc00">Your message was sent</div></ok.mail>
