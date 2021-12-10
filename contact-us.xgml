@@ -2,7 +2,7 @@
 <response-test>
 <proven>
 <grecaptcha>
-<mail pg_connection_file="" to="brian@jonnes.co.za, ronald@jonnes.co.za" from="webform@basicconceptslearning.org" subject="BCMLP: New message">
+<mail pg_connection_file="" to="bemorewise@killtheworld.co.za, ronald@jonnes.co.za" from="webform@basicconceptslearning.org" subject="BCMLP: New message">
 
 <html>
 	<body>
