@@ -1,4 +1,4 @@
-<module api path="mailrecaptcha.php">
+<cache_control static/><module api path="mailrecaptcha.php">
 <response-test>
 <proven>
 <grecaptcha>

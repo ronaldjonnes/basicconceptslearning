@@ -16,7 +16,7 @@
 #    along with Egg-SGML.  If not, see <https://www.gnu.org/licenses/>.
 
 
-class env {
+class chicken {
 	public $stack, $repeat;
 
 	function enqueue( $egg, $repeat ) {
@@ -216,7 +216,7 @@ function eggsgml_2( $env ) {
 
 function eggsgml( $F ) {
 	$c = null;
-	$env = new env();
+	$env = new chicken();
 	$c = new module1egg;
 	$c->tgc = $F->c;
 	$c->q = $F->q;

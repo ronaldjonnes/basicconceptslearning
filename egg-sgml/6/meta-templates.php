@@ -14,7 +14,7 @@
 #    You should have received a copy of the GNU General Public License
 #    along with Egg-SGML.  If not, see <https://www.gnu.org/licenses/>.
 
-class environ {
+class libconfig {
 	public $self_href, $shipyard;
 	public $sct; public $scriptnow;
 	public $file_ext; public $templatefile; public $urlpath;
@@ -37,6 +37,14 @@ class environ {
 		if( ! array_key_exists( strtolower($tag), $this->sct ) ) {
 			$q->write('</' . $tag . '>'); }
 	}
+	function expanddirpath( $H ) {
+		if( $H == '' ) {
+			return $_SERVER['DOCUMENT_ROOT'] . '/'; }
+
+		if( $H[strlen($H)-1] != '/' ) $H .= '/';
+		if( $H[0] == '/' ) return $H;
+		return $_SERVER['DOCUMENT_ROOT'] . '/' . $H;
+	}
 	function dirpath2web( $P, $H ) {
 		$a = $_SERVER['DOCUMENT_ROOT'];
 		if( $H == '' ) {
@@ -46,6 +54,48 @@ class environ {
 		$a = substr($P,strlen($a));
 		if( $H != '' ) if( $a[strlen($a)-1] != '/' ) $a .= '/' . $H;
 		return $a;
+	}
+	function load_eggsgml_file( $path ) {
+		if( ! file_exists( $path ) ) {
+			$this->brian( 'not found: ' . $path );
+			return; }
+		return load_eggsgml_file( $path );
+	}
+	# I'm not about to take up knitting (so I can't stick to it),
+	# and I am averse to the using of medical terminology.
+	# Circuit tracing belongs to electronics.
+	# A debugger is an imposing tool, and in truth unless we create
+	# our own picture we're not likely to 
+	# increase our understanding.
+	#
+	# If the code belongs to us, we simply need to have more information
+	# about what it's doing in order to come to understand what it's
+	# doing wrong.  Some call the art of correcting others, 
+	# reductio ad absurdum, but the use of Latin lends itself to 
+	# the creating of (absurd) pictures of Ancient Rome, which
+	# is just about the opposite reason why Latin was the language
+	# of the sciences.
+	#
+	# Encouraging someone to talk who might've drawn a wrong conclusion
+	# somewhere, who had no way of knowing it, can only be done in
+	# good faith--which carries the draw-back of allowing ourselves
+	# to be persuaded not to argue.
+	#
+	# Don't talk, just fix!
+	#
+	# Commanding someone to talk to us is nonsensical, yet it
+	# is natural. Imagining a ship can talk to us, we would only 
+	# want it to keep us informed of things that need attending to, 
+	# while it is in the shipyard. Obviously.
+	#
+	# And obviously they call us by name.
+	#
+	public $shipyard_log;
+	function brian( $d ) {
+		if( ! $this->shipyard ) return;
+		if( $this->shipyard_log != '' ) {
+			$this->shipyard_log .= ' / '; }
+		$this->shipyard_log .= $d;
 	}
 	function _untested__write_prefixed_attributes( $q, $w, $f ) {
 		$m = 00;
@@ -62,8 +112,11 @@ class environ {
 	}
 };
 
-function main_f($env,$extension,$altextension,$extoptional,$doc,$self_href) {
-	$c = $d = $m = null; $b = 0;
+class docloader_egg {
+	public $d, $end, $doc;
+	function __construct($env,$extension,$altextension,$extoptional,$doc,$self_href) {
+	$c = $m = null; $b = 0;
+	$this->d = null; $this->env = $env; $this->doc = $doc;
 	$env->self_href = $self_href;
 	do {
 		if( $extension != '' ) {
@@ -85,31 +138,43 @@ F:				if( $env->fallback != '' ) {
 			goto F; }
 		$env->templatefile = $doc;
 	} while(0);
-	$d = load_eggsgml_file_env( $env, $env->templatefile );
-	$m = eggsgml_descendent( $d, 'cache_control' );
+	$this->d = load_eggsgml_file_env( $env, $env->templatefile );
+	}
+	function tap( $eggenv, $str ) {
+		$c = $m = null; $b = 0; $k = null;
+	if( ! $this->d ) return;
+	$m = eggsgml_descendent( $this->d, 'cache_control' );
 	if( $m ) if( attribute_exists($m,'static') ) {
 m:		$c = apache_request_headers();
 		if( array_key_exists('If-Modified-Since',$c) ) {
 			$b = strtotime($c['If-Modified-Since']);
-			if( filemtime($env->templatefile) <= $b ) {
+			if( filemtime($this->env->templatefile) <= $b ) {
 				http_response_code(304);
 				return; }
 		}
-		header('Last-Modified: ' . date('r',filemtime($env->templatefile)));
+		header('Last-Modified: ' . date('r',filemtime($this->env->templatefile)));
 		header('Cache-Control: max-age=0');
 	} else if( attribute_exists($m,'dynamic') ) {
-n:		header('Last-Modified: ' . date('r',$env->scriptnow));
+n:		header('Last-Modified: ' . date('r',$this->env->scriptnow));
 		header('Cache-Control: max-age=0');
 	} else if( attribute_exists($m,'querystring') ) {
 		if( array_key_exists( 'REDIRECT_QUERY_STRING', $_SERVER ) ) {
 			goto n; }
 		goto m;
 	}
-	$k = newframe(new tgc_generic(dirname($doc,1),$env), new echo_out, $d);
-	if( ! $env->nodoctype ) {
-		echo ("<!doctype html>"); }
-	return $k;
+	enqueue_modules( $eggenv, $this->doc, $this->env );
+	$k = new domegg;
+	$k->tgcnode = $eggenv->stack;
+	$k->writernode = ( $eggenv->stack->q ? $eggenv->stack : $eggenv->stack->writernode );
+	$k->dn = $this->d;
+	$eggenv->enqueue( $k, 0 );
+
+	//$k = newframe(new tgc_generic(dirname($doc,1),$env), new echo_out, $d);
+	//if( ! $env->nodoctype ) {
+	//	echo ("<!doctype html>"); }
+	//return $k;
 }
+};
 
 function attribute_exists( $w, $n ) {
 	$m = 00;
@@ -149,8 +214,8 @@ class tgc_templates {
 		if( $w->nodeName == 'main' ) {
 			if( $end ) return 1;
 			$path = $_SERVER['DOCUMENT_ROOT'];
-			$env = new environ;
-			$env->secrets_path = $w->getAttribute('secrets-path');
+			$env = new libconfig;
+			$env->secrets_path = $env->expanddirpath( $w->getAttribute('secrets-path') );
 			$env->urlpath = $_GET['t'];
 			$env->nodoctype = true;
 			$env->api = basename(dirname($_SERVER['PHP_SELF']));
@@ -171,21 +236,21 @@ class tgc_templates {
 			}
 			$env->file_ext = $w->getAttribute('extension');
 			if( ! check_shipyard_auth($env,$path) ) {
-				$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . attribute_with_inival( $w, 'shipyard-doc', '/shipyard'), '/shipyard');
-				if( ! $this->NF ) return 1;
-				return 3; }
+				$this->NF = new docloader_egg( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . attribute_with_inival( $w, 'shipyard-doc', '/shipyard'), '/shipyard');
+				//if( ! $this->NF ) return 1;
+				return 4; }
 			if( $_GET['t'] == '/' ) {
-				$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . '/' . $w->getAttribute('rootdoc'), $_GET['t'] );
-				if( ! $this->NF ) return 1;
-				return 3;
+				$this->NF = new docloader_egg( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . '/' . $w->getAttribute('rootdoc'), $_GET['t'] );
+				//if( ! $this->NF ) return 1;
+				return 4;
 			}
 			if( $_GET['t'] == '/' . $w->getAttribute('rootdoc') ) {
 				header('Location:' . $this->self_protocol($w) . '://' . $_SERVER['HTTP_HOST'] . '/' );
 				return 1;
 			}
-			$this->NF = main_f( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . strtolower(str_replace('.','',$_GET['t'])), strtolower($_GET['t']) );
-			if( ! $this->NF ) return 1;
-			return 3;
+			$this->NF = new docloader_egg( $env, $w->getAttribute('extension'), $w->getAttribute('alt-extension'), attribute_exists($w,'extension-optional'), $path . strtolower(str_replace('.','',$_GET['t'])), strtolower($_GET['t']) );
+			//if( ! $this->NF ) return 1;
+			return 4;
 		}
 		return 0;
 	}

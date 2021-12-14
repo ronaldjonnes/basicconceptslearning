@@ -19,6 +19,7 @@ include 'parser.php';
 include 'eggsgml-loader.php';
 include 'eggsgml.php';
 include 'tgc_generic.php';
+include 'modules.php';
 include 'meta-templates.php';
 
 ?>

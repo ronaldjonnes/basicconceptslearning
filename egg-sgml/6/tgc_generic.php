@@ -115,6 +115,10 @@ class tgc_generic {
 				$q->write(' action="' . sr_amp_quot( $_SERVER['REDIRECT_URL'] ) . '?' . rand(0,100) . '"' ); }
 			$q->write('>');
 			return 2; }
+		if( $w->nodeName == 'shipyard-log' ) {
+			if( $end ) return 1;
+			$q->write( sr_amp_lt( $this->env->shipyard_log ) );
+			return 2; }
 		if( $w->nodeName == 'doctype' ) {
 			if( $end ) return 1;
 			$q->write('<!' . $w->getAttribute('raw') . '>');
