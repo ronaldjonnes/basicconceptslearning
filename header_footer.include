@@ -2,12 +2,11 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="bootstrap-5/bootstrap.min.css"/>
+		<link rel="stylesheet" href="bootstrap-5/bootstrap.min.css">
 		<link rel="stylesheet" href="fontawesome/css/all.min.css">
-		<link rel="icon" href="/resources/spiked.jpg"/>
+		<link rel="icon" href="/resources/spiked.jpg">
 		<title><play id="title"/></title>
 		<style>
-			/* .nav-item a.active {font-weight: 800;} */
 			#myBtn {
 				display: none;
 				height: 30px;
@@ -24,6 +23,26 @@
 				background: transparent;
 			}
 			.c1#myBtn {background-color: black; color: white}
+			a.LinkTextColour:link {
+				color: white;
+				background: transparent;
+				text-decoration: none;
+				}
+			a.LinkTextColour:visited {
+				color: white;
+				background: transparent;
+				text-decoration: none;
+				}
+			a.LinkTextColour:hover {
+				color: white;
+				background: transparent;
+				text-decoration: underline;
+				}
+			a.LinkTextColour:active {
+				color: white;
+				background: transparent;
+				text-decoration: none;
+				}
 		</style>
 		<play id="meta"/>
 	</head>
@@ -76,7 +95,7 @@
 				<div class="row">
 					<div class="col-lg-7"></div>
 					<div class="col-lg-5 text-end">
-						<div>Egg-SGML v <eggsgml_version/> &bull; Revision 1.2</div>
+						<div><a class=LinkTextColour href="https://egg-sgml.killtheworld.co.za/">Egg-SGML <shipyard>V</shipyard><sailing>v</sailing> <eggsgml_version/></a> &bull; Revision 1.3</div>
 					</div>
 				</div>
 			</div>
