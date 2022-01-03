@@ -26,14 +26,14 @@
 	<div class="row gx-2">
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="section-1"><img class="img-fluid" src="/resources/home-1.jpg" alt="The BC Journey"/></a></div>
-				<div class="col"><a href="section-2"><img class="img-fluid" src="/resources/home-2.jpg" alt="Language, Colour"/></a></div>
+				<div class="col"><a href="section1"><img class="img-fluid" src="/resources/home-1.jpg" alt="The BC Journey"/></a></div>
+				<div class="col"><a href="section2"><img class="img-fluid" src="/resources/home-2.jpg" alt="Language, Colour"/></a></div>
 			</div>
 		</div>
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="section-3"><img class="img-fluid" src="/resources/home-3.jpg" alt="BC Skills"/></a></div>
-				<div class="col"><a href="section-4"><img class="img-fluid" src="/resources/home-4.jpg" alt="BC Equipment"/></a></div>
+				<div class="col"><a href="section3"><img class="img-fluid" src="/resources/home-3.jpg" alt="BC Skills"/></a></div>
+				<div class="col"><a href="section4"><img class="img-fluid" src="/resources/home-4.jpg" alt="BC Equipment"/></a></div>
 			</div>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 		<div class="col-lg-6">
 		<div class="row gx-2 pt-1">
 		<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/home-7.jpg" alt="DST Barriers"/></a></div>
-		<div class="col"><a href="section-8"><img class="img-fluid" src="/resources/home-8.svg" alt="Building Shapes"/></a></div>
+		<div class="col"><a href="section8"><img class="img-fluid" src="/resources/home-8.svg" alt="Building Shapes"/></a></div>
 		</div>
 		</div>
 	</div>
