@@ -50,7 +50,7 @@
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="/#"><img src="/resources/spiked.jpg" width="25" alt="Spiked Balls"></a>
+					<a class="navbar-brand" href="/#"><img src="/resources/spiked.jpg" width="25"></a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -61,15 +61,15 @@
 							<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown">Sections</a>
 								<ul class="dropdown-menu dropdown-menu-dark">
 									<!-- <li><hr class="dropdown-divider"></li> -->
-									<li><a.site activeclass="active" class="dropdown-item" href="/section1">Section 1</a.site></li>
-									<li><a.site activeclass="active" class="dropdown-item" href="/section2">Section 2</a.site></li>
-									<li><a.site activeclass="active" class="dropdown-item" href="/section3">Section 3</a.site></li>
-									<li><a.site activeclass="active" class="dropdown-item" href="/section4">Section 4</a.site></li>
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section5">Section 5</a.site></li> -->
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section6">Section 6</a.site></li> -->
+									<li><a.site activeclass="active" class="dropdown-item" href="/section1">1 - Basic Concept Introduction</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section2">2 - Basic Concept Colour</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section3">3 - Basic Concept Number Skills</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section4">4 - Basic Concept Skills</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section5">5 - Basic Concept Equipment</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section6">6 - Basic Concept Drawing Skills</a.site></li>
 									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section7">Section 7</a.site></li> -->
-									<li><a.site activeclass="active" class="dropdown-item" href="/section8">Section 8</a.site></li>
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section9">Section 9</a.site></li> -->
+									<li><a.site activeclass="active" class="dropdown-item" href="/section8">8 - Basic Concept Programme Designs</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section9">9 - Basic Concept Building Shapes</a.site></li>
 									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section10">Section 10</a.site></li> -->
 									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section11">Section 11</a.site></li> -->
 									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section12">Section 12</a.site></li> -->
@@ -97,7 +97,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content" style="background-color:#fdf5e6d9">
 					<div class="modal-header">
-						<img src="/resources/spiked.jpg" width="45" alt="Spiked Balls"><span  class="m-1">BCMLP</span>
+						<img src="/resources/spiked.jpg" width="45"><span  class="m-1">BCMLP</span>
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">

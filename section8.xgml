@@ -1,39 +1,31 @@
-<cache_control static/><record id="title">BCMLP - Section 8</record>
+<cache_control static/><record id="title">BCMLP - Section 3</record>
 <record id="meta"></record>
 <record id="content">
 
 <div class="container-fluid py-1">
 	<div class="row gx-2">
-		<div class="col-lg-7 pt-1"><img class="img-fluid" src="/resources/8-index.png" alt="Index"></div>
-		<div class="col-lg-5 pt-1"><img class="img-fluid" src="/resources/8-topright.png" alt="The BC Journey"/>
-			<div class="p-3 mt-2 border border-dark border border-3" style="background: red; text-align: center"><h3><strong>This is the mathematics and language Basic Concept focus of the website.<br/>*******************<br/>It forms the building blocks of the CRITICAL FOUNDATION for all future learning.</strong></h3></div>
-		</div>
-	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 8A to 8N.</strong></h3></div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-1.png" alt="Building Shapes"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.jpg" alt="Introduction"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8b.jpg" alt="Line Shape"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-1.jpg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-2.jpg"/></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-3.jpg"/></div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8c.jpg" alt="Angle Shape"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8d.jpg" alt="Curved Shape"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8e.jpg" alt="Flower Shape"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-4.jpg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-5.jpg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-6.jpg"></div>
+	</div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 8A to 8G.</strong></h3></div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8b.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8c.jpg"></div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8f.jpg" alt="Polygon Shape"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8g.jpg" alt="Pyramid Shape"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8h.jpg" alt="Spikey Ball Shape"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8d.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8e.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8f.jpg"></div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8i.jpg" alt="Polygon Shapes"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8j.jpg" alt="Magical Triangle Shapes"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8k.jpg" alt="Video Programme"></div>
-	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8l.jpg" alt="Computer Drawing"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8m.png" alt="LNTB Mr Good"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8n.png" alt="LNTB Mr Bad"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8g.jpg"></div>
 	</div>
 </div>
 
