@@ -26,7 +26,9 @@
 	<div class="row gx-2">
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="section1"><img class="img-fluid" src="/resources/home-1.jpg"/></a></div>
+				<div class="col"><a href="section1"><img class="img-fluid" src="/resources/home-1.jpg"/></a>
+					<div class="attribution"><strong><a href="https://tinyurl.com/s54pdfdm" target="_blank" rel="noopener noreferrer">image</a> by FMSC, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY</strong></div>
+				</div>
 				<div class="col"><a href="section2"><img class="img-fluid" src="/resources/home-2.jpg"/></a></div>
 			</div>
 		</div>
@@ -46,8 +48,10 @@
 		</div>
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/home-7.jpg"></div>
-				<div class="col"><a href="section8"><img class="img-fluid" src="/resources/home-8.jpg"/></a></div>
+				<div class="col"><a href="section7"><img class="img-fluid" src="/resources/home-7.jpg"></div>
+				<div class="col"><a href="section8"><img class="img-fluid" src="/resources/home-8.jpg"/></a>
+					<div class="attribution"><strong><a href="https://tinyurl.com/268edxzs" target="_blank" rel="noopener noreferrer">image</a> by Iowa Digital Library, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/y4z3hrsu">CC BY-NC 2.0</strong></div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -55,13 +59,13 @@
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
 				<div class="col"><a href="section9"><img class="img-fluid" src="/resources/home-9.svg"/></a></div>
-				<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/home-10.jpg"/></a></div>
+				<div class="col"><a href="section10"><img class="img-fluid" src="/resources/home-10.jpg"/></a></div>
 			</div>
 		</div>
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/home-11.jpg"/></a></div>
-				<div class="col"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/home-12.jpg"/></a></div>
+				<div class="col"><a href="section11"><img class="img-fluid" src="/resources/home-11.jpg"/></a></div>
+				<div class="col"><a href="section12"><img class="img-fluid" src="/resources/home-12.jpg"/></a></div>
 			</div>
 		</div>
 	</div>

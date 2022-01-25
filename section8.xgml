@@ -4,18 +4,81 @@
 
 <div class="container-fluid py-1">
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-1.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-2.jpg"/></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-3.jpg"/></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-1.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/268edxzs" target="_blank" rel="noopener noreferrer">image</a> by Iowa Digital Library, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/y4z3hrsu">CC BY-NC 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-2.jpg"/>
+			<div class="attribution"><strong>image courtesy <a target="_blank" rel="noopener noreferrer" href="https://mapsnworld.com/">Maps N World</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-3.jpg"/>
+			<div class="attribution"><strong><a href="https://tinyurl.com/bdd5rnpy" target="_blank" rel="noopener noreferrer">image</a> by Jim Forest, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-4.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-5.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-6.jpg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-4.svg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-5.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/5n8k7v5s" target="_blank" rel="noopener noreferrer">image</a> by Wayne S. Grazio, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-6.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/2p8cjp75" target="_blank" rel="noopener noreferrer">image</a> by Rod Waddington, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/k53ncdnc">CC BY-SA 2.0</strong></div>
+		</div>
 	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 8A to 8G.</strong></h3></div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.jpg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-7.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/3m6js8kj" target="_blank" rel="noopener noreferrer">image</a> by Philippe Put, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/mrx6rdrd">CC BY 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-8.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/2p88e49w" target="_blank" rel="noopener noreferrer">image</a> by Rod Waddington, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/k53ncdnc">CC BY-SA 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-9.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/85nej67n" target="_blank" rel="noopener noreferrer">image</a> by Marc Davis, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/mrx6rdrd">CC BY 2.0</strong></div>
+		</div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-10.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/2r84t8cu" target="_blank" rel="noopener noreferrer">image</a> by Vincent_AF, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/k53ncdnc">CC BY-SA 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-11.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/mryydazp" target="_blank" rel="noopener noreferrer">image</a> by Mark Belokopytov, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-12.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/mr2kwh93" target="_blank" rel="noopener noreferrer">image</a> by Nithi Anand, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/mrx6rdrd">CC BY 2.0</strong></div>
+		</div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-13.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/hudj7nff" target="_blank" rel="noopener noreferrer">image</a> by David Robert Bliwas, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/y4z3hrsu">CC BY-NC 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-14.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/4r4x7j8n" target="_blank" rel="noopener noreferrer">image</a> by Steve Evans, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/y4z3hrsu">CC BY-NC 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-15.svg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-16.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/3j6brx9t" target="_blank" rel="noopener noreferrer">image</a> by The Good Doctor, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/mrx6rdrd">CC BY 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-17.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/y2acz8pn" target="_blank" rel="noopener noreferrer">image</a> by World Bank Photo Collection, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-18.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/2p9yu9wt" target="_blank" rel="noopener noreferrer">image</a> by World Bank Photo Collection, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-19.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/39szcvcr" target="_blank" rel="noopener noreferrer">image</a> by World Bank Photo Collection, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-20.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/yfjchx4t" target="_blank" rel="noopener noreferrer">image</a> by World Bank Photo Collection, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
+		</div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-21.jpg">
+			<div class="attribution"><strong><a href="https://tinyurl.com/fvjycevw" target="_blank" rel="noopener noreferrer">image</a> by Roel Coutinho, via Wikimedia Commons <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/2hzah57c">CC BY-SA 4.0</strong></div>
+		</div>
+	</div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 8A to 8T.</strong></h3></div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.svg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8b.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8c.jpg"></div>
 	</div>
@@ -26,6 +89,28 @@
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8g.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8h.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8i.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8j.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8k.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8l.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8m.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8n.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8o.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8p.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8q.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8r.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8s.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8t.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8u.jpg"></div>
 	</div>
 </div>
 

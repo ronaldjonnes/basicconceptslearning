@@ -5,28 +5,28 @@
 <div class="container-fluid py-1">
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-1.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-2.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-3.jpg"></div>
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-2.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-3.jpg"></div> -->
 	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-4.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-5.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-6.jpg"></div>
-	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-7.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-8.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-9.jpg"></div>
-	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-10.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-11.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-12.jpg"></div>
-	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-13.jpg"></div>
-	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 6A to 6L.</strong></h3></div>
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-4.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-5.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-6.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-7.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-8.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-9.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-10.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-11.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-12.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/6-13.jpg"></div> -->
+	<!-- </div> -->
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 6A to 6K.</strong></h3></div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/6a.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/6b.jpg"></div>
@@ -45,7 +45,6 @@
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/6j.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/6k.jpg"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/6l.jpg"></div>
 	</div>
 </div>
 

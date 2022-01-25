@@ -43,6 +43,9 @@
 				background: transparent;
 				text-decoration: none;
 				}
+			div.attribution {
+				margin-left: 1em; font-size: .6em;
+			}
 		</style>
 		<play id="meta"/>
 	</head>
@@ -67,12 +70,12 @@
 									<li><a.site activeclass="active" class="dropdown-item" href="/section4">4 - Basic Concept Skills</a.site></li>
 									<li><a.site activeclass="active" class="dropdown-item" href="/section5">5 - Basic Concept Equipment</a.site></li>
 									<li><a.site activeclass="active" class="dropdown-item" href="/section6">6 - Basic Concept Drawing Skills</a.site></li>
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section7">Section 7</a.site></li> -->
+									<li><a.site activeclass="active" class="dropdown-item" href="/section7">7 - Basic Concepts DS Tools</a.site></li>
 									<li><a.site activeclass="active" class="dropdown-item" href="/section8">8 - Basic Concept Programme Designs</a.site></li>
 									<li><a.site activeclass="active" class="dropdown-item" href="/section9">9 - Basic Concept Building Shapes</a.site></li>
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section10">Section 10</a.site></li> -->
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section11">Section 11</a.site></li> -->
-									<!-- <li><a.site activeclass="active" class="dropdown-item" href="/section12">Section 12</a.site></li> -->
+									<li><a.site activeclass="active" class="dropdown-item" href="/section10">10 - Basic Concept Language Skills</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section11">11 - Basic Concept Theme LNTB</a.site></li>
+									<li><a.site activeclass="active" class="dropdown-item" href="/section12">12 - Basic Concept Teaching Activities</a.site></li>
 								</ul>
 							</li>
 						</ul>
@@ -86,7 +89,8 @@
 				<div class="row">
 					<div class="col-lg-7"></div>
 					<div class="col-lg-5 text-end">
-						<div><a class=LinkTextColour href="https://egg-sgml.killtheworld.co.za/">Egg-SGML <shipyard>V</shipyard><sailing>v</sailing> <eggsgml_version/></a> &bull; Revision 1.3</div>
+						<!-- <div><a class=LinkTextColour href="https://egg-sgml.killtheworld.co.za/">Egg-SGML <shipyard>V</shipyard><sailing>v</sailing> <eggsgml_version/></a> &bull; Revision 1.3</div> -->
+						<div>Egg-SGML <shipyard>V</shipyard><sailing>v</sailing> <eggsgml_version/> &bull; Revision 1.3</div>
 					</div>
 				</div>
 			</div>
