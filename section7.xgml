@@ -1,0 +1,52 @@
+<cache_control static/><record id="title">BCMLP - Section 2</record>
+<record id="meta"></record>
+<record id="content">
+
+<div class="container-fluid py-1">
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-1.jpg"></div>
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-2.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-3.jpg"></div> -->
+	</div>
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-4.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-5.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-6.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-7.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-8.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-9.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-10.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-11.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-12.jpg"></div> -->
+	<!-- </div> -->
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/7-13.jpg"></div> -->
+	<!-- </div> -->
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 7A to 7K.</strong></h3></div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7a.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7b.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7c.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7d.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7e.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7f.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7g.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7h.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7i.jpg"></div>
+	</div>
+	<div class="row gx-2">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7j.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/7k.jpg"></div>
+	</div>
+</div>
+
+</record>
+<include path="header_footer.include"/>
