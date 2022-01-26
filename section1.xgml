@@ -38,8 +38,8 @@
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1c.jpg"></div>
 	</div>
 	<div class="row">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1d.svg"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1e.svg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1d.png"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1e.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1f.jpg"></div>
 	</div>
 </div>

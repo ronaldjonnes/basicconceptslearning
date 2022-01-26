@@ -19,7 +19,7 @@
 				<h4><strong><u> The BCMLP </u></strong></h4>
 				<h4>The Basic Concepts Mathematics Language Programme (BCMLP) includes these BCs for teaching learners with severe language and mathematics BC barriers to learning</h4>
 			</div>
-			<img class="img-fluid" src="/resources/home-colour-grid.svg"/>
+			<img class="img-fluid" src="/resources/home-colour-grid.png"/>
 		</div>
 	</div>
 	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>Tap/click on the boxes below to access the main BCMLP sections.</strong></h3></div>
@@ -58,7 +58,7 @@
 	<div class="row gx-2">
 		<div class="col-lg-6">
 			<div class="row gx-2 pt-1">
-				<div class="col"><a href="section9"><img class="img-fluid" src="/resources/home-9.svg"/></a></div>
+				<div class="col"><a href="section9"><img class="img-fluid" src="/resources/home-9.png"/></a></div>
 				<div class="col"><a href="section10"><img class="img-fluid" src="/resources/home-10.jpg"/></a></div>
 			</div>
 		</div>

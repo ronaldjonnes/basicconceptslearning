@@ -15,7 +15,7 @@
 		</div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-4.svg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-4.png"></div>
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-5.jpg">
 			<div class="attribution"><strong><a href="https://tinyurl.com/5n8k7v5s" target="_blank" rel="noopener noreferrer">image</a> by Wayne S. Grazio, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/5n6uzsnk">CC BY-NC-ND 2.0</strong></div>
 		</div>
@@ -52,7 +52,7 @@
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-14.jpg">
 			<div class="attribution"><strong><a href="https://tinyurl.com/4r4x7j8n" target="_blank" rel="noopener noreferrer">image</a> by Steve Evans, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/y4z3hrsu">CC BY-NC 2.0</strong></div>
 		</div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-15.svg"></div>
+		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-15.png"></div>
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/8-16.jpg">
@@ -78,7 +78,7 @@
 	</div>
 	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 8A to 8T.</strong></h3></div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.svg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8a.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8b.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/8c.jpg"></div>
 	</div>

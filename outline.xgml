@@ -14,10 +14,10 @@
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/outline-b.svg" alt="About B"/>
+			<img class="img-fluid" src="/resources/outline-b.png" alt="About B"/>
 		</div>
 		<div class="col-lg-6 pt-1">
-			<img class="img-fluid" src="/resources/outline-c.svg" alt="About C"/>
+			<img class="img-fluid" src="/resources/outline-c.png" alt="About C"/>
 		</div>
 	</div>
 </div>
