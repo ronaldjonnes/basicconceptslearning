@@ -6,32 +6,34 @@
 <div class="container-fluid py-1">
 	<div class="row" pt-1>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-1.jpg">
-			<div class="attribution"><strong><a href="https://tinyurl.com/s54pdfdm" target="_blank" rel="noopener noreferrer">image</a> by FMSC, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY</strong></div>
+			<div class="attribution"><a href="https://tinyurl.com/s54pdfdm" target="_blank" rel="noopener noreferrer">image</a> by FMSC, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY 2.0</div>
 		</div>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-2.svg"></div>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-3.jpg">
-			<div class="attribution"><strong><a href="https://tinyurl.com/ud9p8v23" target="_blank" rel="noopener noreferrer">African Pattern Vectors by Vecteezy</div>
+			<div class="attribution"><a href="https://tinyurl.com/3vutbnwa" target="_blank" rel="noopener noreferrer">African Pattern Vectors by Vecteezy</a></div>
 		</div>
 	</div>
 	<div class="row pt-1">
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-4.jpg">
-			<div class="attribution"><strong>Image courtesy Equal Education</div>
+			<div class="attribution">Image courtesy Equal Education</div>
 		</div>
-		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-5.jpg"></div>
+		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-5.jpg">
+			<div class="attribution"><a href="https://tinyurl.com/2tkexwdp" target="_blank" rel="noopener noreferrer">U.S. Department of State, Embassy to Niger, Niamey</a>, Public domain, via Wikimedia Commons</div>
+		</div>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-6.jpg">
-			<div class="attribution"><strong><a href="https://tinyurl.com/xrcu995c" target="_blank" rel="noopener noreferrer">image</a> by Karel Prinsloo/Efe/Unesco, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY</strong></div>
+			<div class="attribution"><a href="https://tinyurl.com/xrcu995c" target="_blank" rel="noopener noreferrer">image</a> by Karel Prinsloo/Efe/Unesco, Flickr <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/ysuam9t2">CC BY 2.0</div>
 		</div>
 	</div>
 	<div class="row pt-1">
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-7.jpg"></div>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-8.jpg">
-			<div class="attribution"><strong>Image courtesy Eva-Lotta Jansson</strong></div>
+			<div class="attribution">Image courtesy Eva-Lotta Jansson</div>
 		</div>
 		<div class="col-lg-4 pt-1; border-bottom border-dark border-3"><img class="img-fluid" src="/resources/1-9.jpg">
-			<div class="attribution"><strong>Image courtsey OLPC</strong></div>
+			<div class="attribution">Image courtsey OLPC</div>
 		</div>
 	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 1A to 1F.</strong></h3></div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3>When available, Tap/click on the boxes below to access Subsections 1A to 1G.</h3></div>
 	<div class="row">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1a.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1b.jpg"></div>
@@ -41,6 +43,9 @@
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1d.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1e.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1f.jpg"></div>
+	</div>
+	<div class="row">
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/1g.jpg"></div>
 	</div>
 </div>
 

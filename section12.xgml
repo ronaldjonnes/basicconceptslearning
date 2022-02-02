@@ -20,30 +20,31 @@
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-10.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-11.jpg"></div>
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-12.jpg"></div>
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-11.jpg"></div> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-12.jpg"></div> -->
 	</div>
-	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-13.jpg"></div>
-	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 12A to 12J.</strong></h3></div>
+	<!-- <div class="row gx-2"> -->
+		<!-- <div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/12-13.jpg"></div> -->
+	<!-- </div> -->
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 12A to 12K.</strong></h3></div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12a.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12b.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12c.jpg"></div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12d.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12d.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12e.jpg"></div>
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12f.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12f.png"></div>
 	</div>
 	<div class="row gx-2">
-		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12g.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12g.png"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12h.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12i.jpg"></div>
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12j.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/12k.jpg"></div>
 	</div>
 </div>
 

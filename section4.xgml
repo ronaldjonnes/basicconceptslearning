@@ -13,7 +13,7 @@
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-4.jpg"></div>
 		<div class="col-lg-4 pt-1"><img class="img-fluid" src="/resources/4-5.jpg"></div>
 	</div>
-	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 4A to 4G.</strong></h3></div>
+	<div class=" mt-1 p-1 bg-primary text-white" style="text-align: center;"><h3><strong>When available, Tap/click on the boxes below to access Subsections 4A to 4H.</strong></h3></div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/4a.jpg"></div>
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/4b.jpg"></div>
@@ -26,6 +26,7 @@
 	</div>
 	<div class="row gx-2">
 		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/4g.jpg"></div>
+		<div class="col-lg-4 pt-1"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img class="img-fluid" src="/resources/4h.jpg"></div>
 	</div>
 </div>
 
