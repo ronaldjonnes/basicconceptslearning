@@ -1,8 +1,27 @@
 RewriteEngine On
-RewriteRule ^([^.]*)$ /egg-sgml/6/templates.php?t=%{REQUEST_URI} [QSA,END]
+RewriteRule ^([^.]*)$ egg-sgml/8/templates.php?t=%{REQUEST_URI} [QSA,END]
 
 # Prevent external access to egg-sgml path and shipyard.txt.
 RewriteRule ^egg-sgml/[0-9]+ / [R,END]
 RewriteRule ^shipyard.txt$ / [R,END]
+
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?bing.com [NC]
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yahoo.com [NC]
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?coughupcovid.ca [NC]
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?localhost [NC]
+# RewriteRule \.(gif|jpg|jpeg|bmp|zip|rar|mp3|flv|swf|xml|php|png|css|pdf)$ - [NC,F]
+# RewriteRule \.(jpg|jpeg|png|gif)$ – [NC,F]
+# RewriteRule \.(jpg|jpeg|png|gif|svg)$ http://dropbox.com/hotlink-placeholder.jpg [NC,R,L]
+
+# RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?yourdomain.com [NC]
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteCond %{HTTP_REFERER} !google. [NC]
+# RewriteCond %{HTTP_REFERER} !search?q=cache [NC]
+# RewriteCond %{HTTP_REFERER} !msn. [NC]
+# RewriteCond %{HTTP_REFERER} !yahoo. [NC]
+# RewriteCond %{REQUEST_URI} !^/images/fake_image.jpg$
+# RewriteRule .(jpe?g|png|gif)$ /images/fake_image.jpg [NC,R,L]
 
 RewriteBase /
