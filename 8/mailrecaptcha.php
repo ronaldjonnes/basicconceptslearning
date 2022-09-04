@@ -360,6 +360,7 @@ class mtgc_mailrecaptcha {
 				return 3;
 			}
 			return 1;
+		// start local
 		case 'grecaptcha':
 			if( $end ) return 1;
 			// if( ! array_key_exists( 'g-recaptcha-response', $_POST ) ) {
@@ -379,6 +380,7 @@ class mtgc_mailrecaptcha {
 				return 2;
 			else $this->response_test->validity = 1;
 			return 1;
+		// stop local
 		case 'input.mail':
 			if( $end ) return 1;
 			$q->write( '<input' );
